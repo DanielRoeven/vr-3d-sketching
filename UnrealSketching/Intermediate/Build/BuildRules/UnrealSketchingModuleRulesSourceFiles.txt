@@ -1,0 +1,4 @@
+/Users/danielroeven/Documents/Unreal Projects/vr-3d-sketching/UnrealSketching/Source/UnrealSketching/UnrealSketching.Build.cs
+/Users/danielroeven/Documents/Unreal Projects/vr-3d-sketching/UnrealSketching/Plugins/OSC/Source/OSC/OSC.Build.cs
+/Users/danielroeven/Documents/Unreal Projects/vr-3d-sketching/UnrealSketching/Source/UnrealSketching.Target.cs
+/Users/danielroeven/Documents/Unreal Projects/vr-3d-sketching/UnrealSketching/Source/UnrealSketchingEditor.Target.cs
