@@ -1,0 +1,4 @@
+C:\Users\faculty\Documents\vr-3d-sketching\UnrealSketching 4.19\Source\UnrealSketching\UnrealSketching.Build.cs
+C:\Users\faculty\Documents\vr-3d-sketching\UnrealSketching 4.19\Plugins\OSC\Source\OSC\OSC.Build.cs
+C:\Users\faculty\Documents\vr-3d-sketching\UnrealSketching 4.19\Source\UnrealSketching.Target.cs
+C:\Users\faculty\Documents\vr-3d-sketching\UnrealSketching 4.19\Source\UnrealSketchingEditor.Target.cs

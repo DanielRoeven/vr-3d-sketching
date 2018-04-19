@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-UnrealSketching.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\faculty\Documents\vr-3d-sketching\UnrealSketching 4.19\Intermediate\Build\Win64\UE4Editor\Development\UnrealSketching\UnrealSketching.cpp.obj"
+"C:\Users\faculty\Documents\vr-3d-sketching\UnrealSketching 4.19\Intermediate\Build\Win64\UE4Editor\Development\UnrealSketching\UnrealSketchingGameModeBase.cpp.obj"
+"C:\Users\faculty\Documents\vr-3d-sketching\UnrealSketching 4.19\Intermediate\Build\Win64\UE4Editor\Development\UnrealSketching\UnrealSketching.init.gen.cpp.obj"
+"C:\Users\faculty\Documents\vr-3d-sketching\UnrealSketching 4.19\Intermediate\Build\Win64\UE4Editor\Development\UnrealSketching\UnrealSketchingGameModeBase.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealSketching\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\faculty\Documents\vr-3d-sketching\UnrealSketching 4.19\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealSketching.lib"

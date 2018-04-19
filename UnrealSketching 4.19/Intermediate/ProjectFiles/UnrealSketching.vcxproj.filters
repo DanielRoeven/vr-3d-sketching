@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\UnrealSketching.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{5CAB906D-9B2E-45E3-8F69-C7BD89EA5B56}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\UnrealSketching.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\UnrealSketchingEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{40DB7335-D65C-4314-88A6-2942A5498E3E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{FCE786EE-C200-44E5-97FE-F00C8F16CCED}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\OSC">
+			<UniqueIdentifier>{C2C4DFA1-E5AE-41AC-9039-D6CD1A57B508}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\OSC\Source">
+			<UniqueIdentifier>{B58E787E-60F2-4A21-9D11-3E61A419B0A0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\OSC\Source\OSC">
+			<UniqueIdentifier>{0C264B6F-2216-4989-A59F-29AE748FC650}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\OSC\Source\OSC\OSC.Build.cs">
+			<Filter>Plugins\OSC\Source\OSC</Filter>
+		</None >
+		<Filter Include="Plugins\OSC\Source\OSC\Private">
+			<UniqueIdentifier>{CCBE00E5-7098-43DA-9387-BE952FFB3760}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\OscModule.cpp">
+			<Filter>Plugins\OSC\Source\OSC\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\OscPrivatePCH.h">
+			<Filter>Plugins\OSC\Source\OSC\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\OscSettings.cpp">
+			<Filter>Plugins\OSC\Source\OSC\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\OscSettings.h">
+			<Filter>Plugins\OSC\Source\OSC\Private</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\OSC\Source\OSC\Private\Common">
+			<UniqueIdentifier>{CC3521D1-E708-4FB6-BD8D-89B8CE536AD2}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\OSC\Source\OSC\Private\Common\oscpack">
+			<UniqueIdentifier>{D606CE24-2C83-444F-BA16-FB41BA777278}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\OSC\Source\OSC\Private\Common\oscpack\osc">
+			<UniqueIdentifier>{0845FF98-F43C-4329-9D92-CDF5ED37174A}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscHostEndianness.h">
+			<Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscOutboundPacketStream.cpp">
+			<Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscOutboundPacketStream.h">
+			<Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscReceivedElements.cpp">
+			<Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscReceivedElements.h">
+			<Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscTypes.cpp">
+			<Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\Common\oscpack\osc\OscTypes.h">
+			<Filter>Plugins\OSC\Source\OSC\Private\Common\oscpack\osc</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\OSC\Source\OSC\Private\Receive">
+			<UniqueIdentifier>{F35AA87A-F40E-45F9-911F-C4CC41AA5462}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\Receive\OscDispatcher.cpp">
+			<Filter>Plugins\OSC\Source\OSC\Private\Receive</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\Receive\OscDispatcher.h">
+			<Filter>Plugins\OSC\Source\OSC\Private\Receive</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\OSC\Source\OSC\Private\Receive\OscReceiverInputKey.cpp">
+			<Filter>Plugins\OSC\Source\OSC\Private\Receive</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\OSC\Source\OSC\Private\Receive\OscReceiverInputKey.h">
+			<Filter>Plugins\OSC\Source\OSC\Private\Receive</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\OSC\Source\OSC\Public">
+			<UniqueIdentifier>{5FE2B8FD-E2BC-4137-9DCA-3A602E20D8A2}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Osc.h">
+			<Filter>Plugins\OSC\Source\OSC\Public</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\OSC\Source\OSC\Public\Common">
+			<UniqueIdentifier>{9FDA611B-0BDE-479B-A856-38555322C642}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Common\OscDataElemStruct.h">
+			<Filter>Plugins\OSC\Source\OSC\Public\Common</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\OSC\Source\OSC\Public\Common\OscFunctionLibrary.cpp">
+			<Filter>Plugins\OSC\Source\OSC\Public\Common</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Common\OscFunctionLibrary.h">
+			<Filter>Plugins\OSC\Source\OSC\Public\Common</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Common\OscMessageStruct.h">
+			<Filter>Plugins\OSC\Source\OSC\Public\Common</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\OSC\Source\OSC\Public\Receive">
+			<UniqueIdentifier>{3676E54C-7B5B-4180-9187-04FDBA27DD61}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\OSC\Source\OSC\Public\Receive\OscReceiverActor.cpp">
+			<Filter>Plugins\OSC\Source\OSC\Public\Receive</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Receive\OscReceiverActor.h">
+			<Filter>Plugins\OSC\Source\OSC\Public\Receive</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\OSC\Source\OSC\Public\Receive\OscReceiverComponent.cpp">
+			<Filter>Plugins\OSC\Source\OSC\Public\Receive</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Receive\OscReceiverComponent.h">
+			<Filter>Plugins\OSC\Source\OSC\Public\Receive</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\OSC\Source\OSC\Public\Receive\OscReceiverInterface.h">
+			<Filter>Plugins\OSC\Source\OSC\Public\Receive</Filter>
+		</ClInclude >
+		<None Include="..\..\Plugins\OSC\OSC.uplugin">
+			<Filter>Plugins\OSC</Filter>
+		</None >
+		<Filter Include="Plugins\OSC\Resources">
+			<UniqueIdentifier>{BCEEFA93-EED9-4BD1-B664-DFF43265A626}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\OSC\Resources\Icon128.png">
+			<Filter>Plugins\OSC\Resources</Filter>
+		</None >
+		<Filter Include="Source\UnrealSketching">
+			<UniqueIdentifier>{C279763E-6D0D-4027-B906-0D851BC3B4FF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\UnrealSketching\UnrealSketching.Build.cs">
+			<Filter>Source\UnrealSketching</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\UnrealSketching\UnrealSketching.cpp">
+			<Filter>Source\UnrealSketching</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UnrealSketching\UnrealSketching.h">
+			<Filter>Source\UnrealSketching</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\UnrealSketching\UnrealSketchingGameModeBase.cpp">
+			<Filter>Source\UnrealSketching</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\UnrealSketching\UnrealSketchingGameModeBase.h">
+			<Filter>Source\UnrealSketching</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
