@@ -4894,3 +4894,195 @@ LogInit: Object subsystem initialized
 [2018.04.19-13.18.06:192][468]LogSavePackage: Save=58.99ms
 [2018.04.19-13.18.06:192][468]LogSavePackage: Moving '../../../../../../Users/faculty/Documents/vr-3d-sketching/UnrealSketching 4.19/Saved/iPadOSC_Level_BuiltDataB7A253A845BEC47FE277BEA8BDC9DFB9.tmp' to '../../../../../../Users/faculty/Documents/vr-3d-sketching/UnrealSketching 4.19/Content/iPadOSC_Level_BuiltData.uasset'
 [2018.04.19-13.18.06:199][468]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/faculty/Documents/vr-3d-sketching/UnrealSketching 4.19/Content/iPadOSC_Level_BuiltData.uasset
+[2018.04.19-13.28.06:586][681]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/iPadOSC_Level' took 0.026
+[2018.04.19-13.28.06:588][681]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/MeshBody1Mat] ([1] browsable assets)...
+[2018.04.19-13.28.06:604][681]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/MeshBody1Mat.MeshBody1Mat]
+[2018.04.19-13.28.06:604][681]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/MeshBody1Mat]
+[2018.04.19-13.28.06:624][681]LogSavePackage: Save=17.18ms
+[2018.04.19-13.28.06:624][681]LogSavePackage: Moving '../../../../../../Users/faculty/Documents/vr-3d-sketching/UnrealSketching 4.19/Saved/MeshBody1Mat_Auto5C65EDB624C9F6017050B7694CC404556.tmp' to '../../../../../../Users/faculty/Documents/vr-3d-sketching/UnrealSketching 4.19/Saved/Autosaves/Game/StarterContent/Materials/MeshBody1Mat_Auto5.uasset'
+[2018.04.19-13.28.06:649][681]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/faculty/Documents/vr-3d-sketching/UnrealSketching 4.19/Saved/Autosaves/Game/StarterContent/Materials/MeshBody1Mat_Auto5.uasset
+[2018.04.19-13.28.06:650][681]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/Screen_v1] ([1] browsable assets)...
+[2018.04.19-13.28.06:664][681]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/StarterContent/Materials/Screen_v1.Screen_v1]
+[2018.04.19-13.28.06:664][681]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/Screen_v1]
+[2018.04.19-13.28.06:682][681]LogSavePackage: Save=16.42ms
+[2018.04.19-13.28.06:682][681]LogSavePackage: Moving '../../../../../../Users/faculty/Documents/vr-3d-sketching/UnrealSketching 4.19/Saved/Screen_v1_Auto57E00E39D4DE3FC2DE7E8D1AF087C2BAA.tmp' to '../../../../../../Users/faculty/Documents/vr-3d-sketching/UnrealSketching 4.19/Saved/Autosaves/Game/StarterContent/Materials/Screen_v1_Auto5.uasset'
+[2018.04.19-13.28.06:683][681]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/faculty/Documents/vr-3d-sketching/UnrealSketching 4.19/Saved/Autosaves/Game/StarterContent/Materials/Screen_v1_Auto5.uasset
+[2018.04.19-13.28.06:684][681]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Materials/MeshBody1Mat1] ([1] browsable assets)...
+[2018.04.19-13.28.06:695][681]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Materials/MeshBody1Mat1.MeshBody1Mat1]
+[2018.04.19-13.28.06:696][681]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Materials/MeshBody1Mat1]
+[2018.04.19-13.28.06:715][681]LogSavePackage: Save=16.98ms
+[2018.04.19-13.28.06:715][681]LogSavePackage: Moving '../../../../../../Users/faculty/Documents/vr-3d-sketching/UnrealSketching 4.19/Saved/MeshBody1Mat1_Auto532E9C44F4A6A70278BDDB5BE51A75D7A.tmp' to '../../../../../../Users/faculty/Documents/vr-3d-sketching/UnrealSketching 4.19/Saved/Autosaves/Game/StarterContent/Materials/MeshBody1Mat1_Auto5.uasset'
+[2018.04.19-13.28.06:716][681]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/faculty/Documents/vr-3d-sketching/UnrealSketching 4.19/Saved/Autosaves/Game/StarterContent/Materials/MeshBody1Mat1_Auto5.uasset
+[2018.04.19-13.28.06:717][681]LogFileHelpers: Auto-saving content packages took 0.129
+[2018.04.19-13.37.58:887][418]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.19-13.38.05:636][193]LogEditorViewport: Clicking on Actor (LMB): OSC_VP_C (OSC_VP)
+[2018.04.19-13.38.07:574][376]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.19-13.38.31:618][ 48]LogRenderer: Reallocating scene render targets to support 1208x1020 Format 10 NumSamples 1 (Frame:1).
+[2018.04.19-13.38.37:664][754]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.19-13.38.51:983][429]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.19-13.38.51:988][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OSC_VP" FILE="../../../../../../Users/faculty/Documents/vr-3d-sketching/UnrealSketching 4.19/Content/OSC_VP.uasset" SILENT=true
+[2018.04.19-13.38.52:019][429]LogSavePackage: Save=17.52ms
+[2018.04.19-13.38.52:019][429]LogSavePackage: Moving '../../../../../../Users/faculty/Documents/vr-3d-sketching/UnrealSketching 4.19/Saved/OSC_VP214427374E994DA48D8E018EF2178C01.tmp' to '../../../../../../Users/faculty/Documents/vr-3d-sketching/UnrealSketching 4.19/Content/OSC_VP.uasset'
+[2018.04.19-13.38.52:028][429]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/faculty/Documents/vr-3d-sketching/UnrealSketching 4.19/Content/OSC_VP.uasset
+[2018.04.19-13.38.57:169][ 44]BlueprintLog: New page: Compile OSC_VP
+[2018.04.19-13.39.00:343][335]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.19-13.39.01:286][417]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.19-13.39.02:163][497]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.19-13.39.03:926][662]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.19-13.39.04:041][672]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.19-13.39.04:061][672]LogOSC: Display: Stop listening
+[2018.04.19-13.39.04:073][672]LogOSC: Display: Listen to port 8000
+[2018.04.19-13.39.04:073][672]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-13.39.04:073][672]LogHMD: Initializing OVRPlugin session
+[2018.04.19-13.39.04:117][672]PIE: New page: PIE session: iPadOSC_Level (19 Apr 2018 17:39:04)
+[2018.04.19-13.39.04:117][672]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_iPadOSC_Level
+[2018.04.19-13.39.04:119][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001354s)
+[2018.04.19-13.39.04:119][672]LogAIModule: Creating AISystem for world iPadOSC_Level
+[2018.04.19-13.39.04:119][672]LogPlayLevel: PIE: World Init took: (0.000795s)
+[2018.04.19-13.39.04:120][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/iPadOSC_Level.iPadOSC_Level to /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level (0.002314s)
+[2018.04.19-13.39.04:148][672]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.19-13.39.04:157][672]LogInit: FAudioDevice initialized.
+[2018.04.19-13.39.04:175][672]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OSCListener///Thread_1ecc_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OSCListener///Thread_1eb4_0///####STATCAT_Advanced####
+[2018.04.19-13.39.04:191][672]LogLoad: Game class is 'GameModeBase'
+[2018.04.19-13.39.04:192][672]LogWorld: Bringing World /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level up for play (max tick rate 0) at 2018.04.19-15.39.04
+[2018.04.19-13.39.04:192][672]LogWorld: Bringing up level for play took: 0.000644
+[2018.04.19-13.39.04:193][672]LogBlueprintUserMessages: [OSC_VP_25] Listening for OSC
+[2018.04.19-13.39.04:193][672]PIE: Play in editor start time for /Game/UEDPIE_0_iPadOSC_Level 0.346
+[2018.04.19-13.39.09:423][270]LogOSC: Display: Stop listening
+[2018.04.19-13.39.20:930][570]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Screen_v1)
+[2018.04.19-13.39.24:545][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.19-13.39.48:570][174]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.19-13.39.48:629][174]LogSavePackage: Save=15.83ms
+[2018.04.19-13.39.48:630][174]LogSavePackage: Moving '../../../../../../Users/faculty/Documents/vr-3d-sketching/UnrealSketching 4.19/Saved/iPadOSC_Level_Auto6241145AB41C844B0237FE994034B774A.tmp' to '../../../../../../Users/faculty/Documents/vr-3d-sketching/UnrealSketching 4.19/Saved/Autosaves/Game/iPadOSC_Level_Auto6.umap'
+[2018.04.19-13.39.48:631][174]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/faculty/Documents/vr-3d-sketching/UnrealSketching 4.19/Saved/Autosaves/Game/iPadOSC_Level_Auto6.umap
+[2018.04.19-13.39.48:634][174]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/iPadOSC_Level' took 0.052
+[2018.04.19-13.39.48:634][174]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.052
+[2018.04.19-13.39.55:768][825]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.19-13.39.55:950][842]LogActorFactory: Actor Factory created Cube
+[2018.04.19-13.39.56:824][911]LogActorFactory: Actor Factory created Cube
+[2018.04.19-13.40.17:072][776]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.19-13.40.30:895][145]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Screen_v1)
+[2018.04.19-13.40.33:570][404]LogEditorViewport: Clicking Background
+[2018.04.19-13.40.34:585][521]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Screen_v1)
+[2018.04.19-13.40.49:971][ 15]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2018.04.19-13.41.00:063][987]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.04.19-13.41.03:743][337]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.19-13.41.07:510][689]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cylinder)
+[2018.04.19-13.41.08:496][775]Cmd: DELETE
+[2018.04.19-13.41.08:496][775]Cmd: ACTOR DELETE
+[2018.04.19-13.41.08:498][775]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.19-13.41.08:519][775]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.04.19-13.41.13:132][292]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.19-13.41.14:124][403]MapCheck: New page: Map Check
+[2018.04.19-13.41.14:134][403]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.19-13.41.14:137][403]LightingResults: New page: Lighting Build - 19 Apr 2018 17:41:14
+[2018.04.19-13.41.14:148][403]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.04.19-13.41.14:150][403]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.04.19-13.41.14:150][403]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.04.19-13.41.14:151][403]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.04.19-13.41.14:151][403]LogSwarmInterface: [TryOpenConnection] Local Process ID is 4588
+[2018.04.19-13.41.18:659][403]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.04.19-13.41.18:659][403]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.04.19-13.41.18:659][403]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.04.19-13.41.18:659][403]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.04.19-13.41.18:659][403]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.04.19-13.41.18:659][403]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.04.19-13.41.18:725][403]LogEditorBuildUtils: Build time 0:04
+[2018.04.19-13.41.18:739][403]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Tech_Panel, compiling. 
+[2018.04.19-13.41.18:744][403]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.04.19-13.41.18:744][403]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Tech_Panel, compiling. 
+[2018.04.19-13.41.18:755][404]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.04.19-13.41.18:769][404]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling. 
+[2018.04.19-13.41.18:775][404]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.04.19-13.41.18:775][404]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling. 
+[2018.04.19-13.41.19:958][405]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.04.19-13.41.22:429][514]Job is a success!
+[2018.04.19-13.41.22:446][515]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.19-13.41.22:494][515]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.036s
+[2018.04.19-13.41.22:494][515]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.04.19-13.41.22:494][515]LogVolumetricLightmapImport:      BrickData 1065x5x5 = 0.9Mb
+[2018.04.19-13.41.22:494][515]LogVolumetricLightmapImport:      Bricks at Level
+[2018.04.19-13.41.22:494][515]LogVolumetricLightmapImport:          0: 0.5% covering 100.0% of volume
+[2018.04.19-13.41.22:494][515]LogVolumetricLightmapImport:          1: 7.5% covering 25.0% of volume
+[2018.04.19-13.41.22:494][515]LogVolumetricLightmapImport:          2: 92.0% covering 4.8% of volume
+[2018.04.19-13.41.22:536][515]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2018.04.19-13.41.22:536][515]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2018.04.19-13.41.22:536][515]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.04.19-13.41.22:536][515]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.04.19-13.41.22:536][515]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 128X64)
+[2018.04.19-13.41.22:536][515]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 32X32)
+[2018.04.19-13.41.22:572][515]LogStaticLightingSystem: Illumination: 8.42 sec (20 ms encoding lightmaps, 15 ms encoding shadowmaps)
+[2018.04.19-13.41.22:572][515]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.04.19-13.41.22:572][515]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.04.19-13.41.22:663][515]DumpUnbuiltLightIteractions
+[2018.04.19-13.41.22:663][515]Lights with unbuilt interactions: 0
+[2018.04.19-13.41.22:663][515]
+[2018.04.19-13.41.22:663][515]Primitives with unbuilt interactions: 0
+[2018.04.19-13.41.22:667][515]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.19-13.41.22:683][516]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.04.19-13.41.22:684][516]MapCheck: New page: iPadOSC_Level - 19 Apr 2018 17:41:22
+[2018.04.19-13.41.22:779][516]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 95.954ms to complete.
+[2018.04.19-13.41.33:464][733]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.19-13.41.33:532][741]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.19-13.41.33:548][741]LogOSC: Display: Stop listening
+[2018.04.19-13.41.33:559][741]LogOSC: Display: Listen to port 8000
+[2018.04.19-13.41.33:559][741]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.19-13.41.33:559][741]LogHMD: Initializing OVRPlugin session
+[2018.04.19-13.41.33:610][741]PIE: New page: PIE session: iPadOSC_Level (19 Apr 2018 17:41:33)
+[2018.04.19-13.41.33:610][741]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_iPadOSC_Level
+[2018.04.19-13.41.33:612][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001489s)
+[2018.04.19-13.41.33:612][741]LogAIModule: Creating AISystem for world iPadOSC_Level
+[2018.04.19-13.41.33:613][741]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2018.04.19-13.41.33:613][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/iPadOSC_Level.iPadOSC_Level to /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level (0.002389s)
+[2018.04.19-13.41.33:642][741]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.19-13.41.33:650][741]LogInit: FAudioDevice initialized.
+[2018.04.19-13.41.33:673][741]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OSCListener///Thread_2a84_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OSCListener///Thread_1eb4_0///####STATCAT_Advanced####
+[2018.04.19-13.41.33:688][741]LogLoad: Game class is 'GameModeBase'
+[2018.04.19-13.41.33:689][741]LogWorld: Bringing World /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level up for play (max tick rate 0) at 2018.04.19-15.41.33
+[2018.04.19-13.41.33:689][741]LogWorld: Bringing up level for play took: 0.000838
+[2018.04.19-13.41.33:690][741]LogBlueprintUserMessages: [OSC_VP_25] Listening for OSC
+[2018.04.19-13.41.33:690][741]PIE: Play in editor start time for /Game/UEDPIE_0_iPadOSC_Level -0.156
+[2018.04.19-13.41.37:798][216]LogOSC: Display: Stop listening
+[2018.04.19-13.41.39:442][388]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.19-13.41.45:163][951]MapCheck: New page: Map Check
+[2018.04.19-13.41.45:174][951]LightingResults: New page: Lighting Build - 19 Apr 2018 17:41:45
+[2018.04.19-13.41.45:186][951]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.04.19-13.41.45:188][951]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.04.19-13.41.45:189][951]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.04.19-13.41.45:189][951]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.04.19-13.41.45:189][951]LogSwarmInterface: [TryOpenConnection] Local Process ID is 4588
+[2018.04.19-13.41.49:699][951]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.04.19-13.41.49:699][951]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.04.19-13.41.49:699][951]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.04.19-13.41.49:699][951]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.04.19-13.41.49:699][951]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.04.19-13.41.49:699][951]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.04.19-13.41.49:751][951]LogEditorBuildUtils: Build time 0:04
+[2018.04.19-13.41.51:745][ 64]Job is a success!
+[2018.04.19-13.41.51:808][ 65]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.035s
+[2018.04.19-13.41.51:808][ 65]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.04.19-13.41.51:808][ 65]LogVolumetricLightmapImport:      BrickData 1065x5x5 = 0.9Mb
+[2018.04.19-13.41.51:808][ 65]LogVolumetricLightmapImport:      Bricks at Level
+[2018.04.19-13.41.51:808][ 65]LogVolumetricLightmapImport:          0: 0.5% covering 100.0% of volume
+[2018.04.19-13.41.51:808][ 65]LogVolumetricLightmapImport:          1: 7.5% covering 25.0% of volume
+[2018.04.19-13.41.51:808][ 65]LogVolumetricLightmapImport:          2: 92.0% covering 4.8% of volume
+[2018.04.19-13.41.51:851][ 65]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2018.04.19-13.41.51:851][ 65]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2018.04.19-13.41.51:851][ 65]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.04.19-13.41.51:851][ 65]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.04.19-13.41.51:851][ 65]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 128X64)
+[2018.04.19-13.41.51:851][ 65]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 32X32)
+[2018.04.19-13.41.51:885][ 65]LogStaticLightingSystem: Illumination: 6.69 sec (20 ms encoding lightmaps, 14 ms encoding shadowmaps)
+[2018.04.19-13.41.51:885][ 65]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.04.19-13.41.51:885][ 65]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.04.19-13.41.52:701][ 65]DumpUnbuiltLightIteractions
+[2018.04.19-13.41.52:701][ 65]Lights with unbuilt interactions: 0
+[2018.04.19-13.41.52:701][ 65]
+[2018.04.19-13.41.52:701][ 65]Primitives with unbuilt interactions: 0
+[2018.04.19-13.41.52:720][ 66]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.04.19-13.41.52:720][ 66]MapCheck: New page: iPadOSC_Level - 19 Apr 2018 17:41:52
+[2018.04.19-13.41.52:789][ 66]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 68.437ms to complete.
+[2018.04.19-13.41.55:083][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (iPad_v1)
+[2018.04.19-13.41.55:897][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (iPad_v1)
+[2018.04.19-13.41.56:604][449]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Screen_v1)
+[2018.04.19-13.42.04:089][127]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
