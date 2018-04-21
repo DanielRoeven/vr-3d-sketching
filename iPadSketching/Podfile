@@ -1,0 +1,6 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'iPadSketching' do
+pod 'SwiftOSC', '~> 1.1'
+end

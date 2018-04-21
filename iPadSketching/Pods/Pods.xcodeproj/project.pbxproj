@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F2865317E73EBE4916A6607D16177C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1D31F86E1768BE1BF013F647FAA37526 /* SwiftOSC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A45A25C8DBDAFC802EBF9C3CF79FE366 /* SwiftOSC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23201F6AA1A84703135A4483DE5DB50A /* Timetag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B8617679CB8440A3A66551A111F6C7 /* Timetag.swift */; };
+		28EE70D91E41FA4A9F561AACE7C7D5CD /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8913F604A7EFCC5FB198AED9FDA46E3 /* Timer.swift */; };
+		2CB5A18D8129F3F2E98499AD318B2891 /* OSCAddressPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DC869292313E1D119ED609C53736E6 /* OSCAddressPattern.swift */; };
+		301136E0F274A55CEA492CE3B286BE28 /* OSCServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6CC89E471D9FB5579A4E7A869DCAFC /* OSCServer.swift */; };
+		3090FCAD793E72BBAD198B7713E08AAC /* OSCElementProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6200ADE67ED62B093EB758278E5273D3 /* OSCElementProtocol.swift */; };
+		341F3395E670A12264F715E1C7D623FC /* Pods-iPadSketching-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BAD342037A2B738861DB4229F6B38D /* Pods-iPadSketching-dummy.m */; };
+		3C1E834751B6F876D1E97313E87CDABD /* Impulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB01C3CEA563E694F611FD85C1EFE4E /* Impulse.swift */; };
+		5262B382154AA064A168D0238CDEEB75 /* OSCMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D4F586F062ABA83C4D172B360724E3 /* OSCMessage.swift */; };
+		60B9AFD13786734B2171E5D67D6210FA /* OSCClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC15C738DBD3853E1BCD1CC2ECBFB714 /* OSCClient.swift */; };
+		63A172E6F85380D05A71787EAA3D2752 /* Pods-iPadSketching-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 840EC2676199BE796B74391E799567C7 /* Pods-iPadSketching-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68097B9A649457C6BEBB546F5E25A11C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3720117A0BEFA58DC9A43F89AFBDBC5 /* String.swift */; };
+		7DE821F4AC77F0467F823F45B140E1B4 /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C842666D90E2EFDFD66149CA16841 /* yudpsocket.swift */; };
+		A316797702D195FF3E04069178662551 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A48167E18BB756D81115A07B96EE6324 /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 6E2CC529D9E096D431314AC19BFA436B /* yudpsocket.c */; };
+		AEF3D517BF05BE00A05543934B825652 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9209FD89E5BAD2A04AD0B802A15733 /* Extensions.swift */; };
+		B842AD83047C7D8E410509764E6E76BB /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38E0D13EA00B3B4AC3D40050055EE78 /* Int.swift */; };
+		BE8167D64AAA88E6FEE153F4211D150F /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F85E2757A6F3A8106B3B8D1B31674D /* Blob.swift */; };
+		BEDB47731932E893FB0B0E8314BEAE28 /* OSCBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8796E674987E73804F8918EC383A8E /* OSCBundle.swift */; };
+		C2CC7D0F09EF4162616479D3B5F0723D /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF38EED25DF0A1EBC0CFB69BFB8A83F4 /* ysocket.swift */; };
+		C9D0773427983C085818DEE7C5A9E218 /* SwiftOSC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A877DB5EBD950BF02567349BFCA11564 /* SwiftOSC-dummy.m */; };
+		CCBA606292C5F9F54720D570BDF0BAC9 /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF848384F72BCB43F324E57E546A1BA /* Bool.swift */; };
+		CEC80F844A62A6BCBDBE08CC928C1E4A /* OSCTypeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FFC9267D0F8D66A31ABA064290055E /* OSCTypeProtocol.swift */; };
+		D78211422F3A1BF82E1519C015914262 /* Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29530200FCF002D2D86A8D241083F08 /* Float.swift */; };
+		DFF40121FB6ADBB5F3566C2036DB1A14 /* SwiftOSC.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A3883144CFCBA8196A5B67F1BD64B26 /* SwiftOSC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E103E287C8AFCDF1EC6EE440EB365A01 /* OSCAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41EA244187993DBB475F2676C86ECE6 /* OSCAddress.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBD714F382BF669D95540075BE0A8719 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DC1AA7EED9177253B705A93FD467C34;
+			remoteInfo = SwiftOSC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A6CC89E471D9FB5579A4E7A869DCAFC /* OSCServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OSCServer.swift; path = Framework/SwiftOSC/Communication/OSCServer.swift; sourceTree = "<group>"; };
+		109CA87113F1E95E777886356588B42E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D2C842666D90E2EFDFD66149CA16841 /* yudpsocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = yudpsocket.swift; path = Framework/SwiftOSC/Communication/ysocket/yudpsocket.swift; sourceTree = "<group>"; };
+		21D4F586F062ABA83C4D172B360724E3 /* OSCMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OSCMessage.swift; path = Framework/SwiftOSC/Elements/OSCMessage.swift; sourceTree = "<group>"; };
+		25B8617679CB8440A3A66551A111F6C7 /* Timetag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timetag.swift; path = Framework/SwiftOSC/Types/Timetag.swift; sourceTree = "<group>"; };
+		27BAD342037A2B738861DB4229F6B38D /* Pods-iPadSketching-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iPadSketching-dummy.m"; sourceTree = "<group>"; };
+		2A3883144CFCBA8196A5B67F1BD64B26 /* SwiftOSC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftOSC.h; path = Framework/iOS/SwiftOSC.h; sourceTree = "<group>"; };
+		2AFAA5D7E01BCC80886646DA142354CC /* Pods-iPadSketching.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iPadSketching.modulemap"; sourceTree = "<group>"; };
+		30FFC9267D0F8D66A31ABA064290055E /* OSCTypeProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OSCTypeProtocol.swift; path = Framework/SwiftOSC/Types/OSCTypeProtocol.swift; sourceTree = "<group>"; };
+		3B768C6B84040669E7858E24DC50BC9A /* SwiftOSC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftOSC-prefix.pch"; sourceTree = "<group>"; };
+		4BF8A62864B625202ABD94923B8A6491 /* SwiftOSC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftOSC.modulemap; sourceTree = "<group>"; };
+		58C5B9585B03D0A23AD3655DC2A87D1E /* Pods-iPadSketching-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iPadSketching-frameworks.sh"; sourceTree = "<group>"; };
+		5AF848384F72BCB43F324E57E546A1BA /* Bool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bool.swift; path = Framework/SwiftOSC/Types/Bool.swift; sourceTree = "<group>"; };
+		6200ADE67ED62B093EB758278E5273D3 /* OSCElementProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OSCElementProtocol.swift; path = Framework/SwiftOSC/Elements/OSCElementProtocol.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E2CC529D9E096D431314AC19BFA436B /* yudpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; name = yudpsocket.c; path = Framework/SwiftOSC/Communication/ysocket/yudpsocket.c; sourceTree = "<group>"; };
+		7FB01C3CEA563E694F611FD85C1EFE4E /* Impulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Impulse.swift; path = Framework/SwiftOSC/Types/Impulse.swift; sourceTree = "<group>"; };
+		840EC2676199BE796B74391E799567C7 /* Pods-iPadSketching-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iPadSketching-umbrella.h"; sourceTree = "<group>"; };
+		888C730B1311D946B3D2BF859CA3A05C /* Pods_iPadSketching.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iPadSketching.framework; path = "Pods-iPadSketching.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B9209FD89E5BAD2A04AD0B802A15733 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Framework/SwiftOSC/Helpers/Extensions.swift; sourceTree = "<group>"; };
+		9F2C386F75740648433B387A209A851A /* SwiftOSC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftOSC.xcconfig; sourceTree = "<group>"; };
+		A155BD4FBDFFDAAE926E156B58B5CE63 /* Pods-iPadSketching-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iPadSketching-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A45A25C8DBDAFC802EBF9C3CF79FE366 /* SwiftOSC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftOSC-umbrella.h"; sourceTree = "<group>"; };
+		A877DB5EBD950BF02567349BFCA11564 /* SwiftOSC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftOSC-dummy.m"; sourceTree = "<group>"; };
+		A9DE596EEECD6232E95FB2092615FE15 /* Pods-iPadSketching-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iPadSketching-resources.sh"; sourceTree = "<group>"; };
+		B3DC869292313E1D119ED609C53736E6 /* OSCAddressPattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OSCAddressPattern.swift; path = Framework/SwiftOSC/Addresses/OSCAddressPattern.swift; sourceTree = "<group>"; };
+		B8913F604A7EFCC5FB198AED9FDA46E3 /* Timer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timer.swift; path = Framework/SwiftOSC/Helpers/Timer.swift; sourceTree = "<group>"; };
+		BA8796E674987E73804F8918EC383A8E /* OSCBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OSCBundle.swift; path = Framework/SwiftOSC/Elements/OSCBundle.swift; sourceTree = "<group>"; };
+		C3720117A0BEFA58DC9A43F89AFBDBC5 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = Framework/SwiftOSC/Types/String.swift; sourceTree = "<group>"; };
+		C38E0D13EA00B3B4AC3D40050055EE78 /* Int.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Int.swift; path = Framework/SwiftOSC/Types/Int.swift; sourceTree = "<group>"; };
+		C41EA244187993DBB475F2676C86ECE6 /* OSCAddress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OSCAddress.swift; path = Framework/SwiftOSC/Addresses/OSCAddress.swift; sourceTree = "<group>"; };
+		C43883186D8A9231224EBB0FF0DB62E5 /* Pods-iPadSketching-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iPadSketching-acknowledgements.plist"; sourceTree = "<group>"; };
+		C933E22BFE2BBD3A414BB357F40B4559 /* Pods-iPadSketching.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iPadSketching.debug.xcconfig"; sourceTree = "<group>"; };
+		CD13EBF72D6FBFA828270E63CC452808 /* SwiftOSC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftOSC.framework; path = SwiftOSC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29530200FCF002D2D86A8D241083F08 /* Float.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Float.swift; path = Framework/SwiftOSC/Types/Float.swift; sourceTree = "<group>"; };
+		E8F85E2757A6F3A8106B3B8D1B31674D /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = Framework/SwiftOSC/Types/Blob.swift; sourceTree = "<group>"; };
+		EA5B649F776EF71475CFF37F7F33A4CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF38EED25DF0A1EBC0CFB69BFB8A83F4 /* ysocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ysocket.swift; path = Framework/SwiftOSC/Communication/ysocket/ysocket.swift; sourceTree = "<group>"; };
+		FC15C738DBD3853E1BCD1CC2ECBFB714 /* OSCClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OSCClient.swift; path = Framework/SwiftOSC/Communication/OSCClient.swift; sourceTree = "<group>"; };
+		FEB61A9E78B9EB9F07986C58FE0111F2 /* Pods-iPadSketching.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iPadSketching.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBB8F54441FE4EE6E0E1DFBE20B0936B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F2865317E73EBE4916A6607D16177C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42E83230C9C85420B088EC699BD7488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A316797702D195FF3E04069178662551 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B9AF8106DCA2BD20C04F79FF5523679 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				888C730B1311D946B3D2BF859CA3A05C /* Pods_iPadSketching.framework */,
+				CD13EBF72D6FBFA828270E63CC452808 /* SwiftOSC.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D21423FCE5B17E5B436A222E1C69603 /* SwiftOSC */ = {
+			isa = PBXGroup;
+			children = (
+				E8F85E2757A6F3A8106B3B8D1B31674D /* Blob.swift */,
+				5AF848384F72BCB43F324E57E546A1BA /* Bool.swift */,
+				9B9209FD89E5BAD2A04AD0B802A15733 /* Extensions.swift */,
+				D29530200FCF002D2D86A8D241083F08 /* Float.swift */,
+				7FB01C3CEA563E694F611FD85C1EFE4E /* Impulse.swift */,
+				C38E0D13EA00B3B4AC3D40050055EE78 /* Int.swift */,
+				C41EA244187993DBB475F2676C86ECE6 /* OSCAddress.swift */,
+				B3DC869292313E1D119ED609C53736E6 /* OSCAddressPattern.swift */,
+				BA8796E674987E73804F8918EC383A8E /* OSCBundle.swift */,
+				FC15C738DBD3853E1BCD1CC2ECBFB714 /* OSCClient.swift */,
+				6200ADE67ED62B093EB758278E5273D3 /* OSCElementProtocol.swift */,
+				21D4F586F062ABA83C4D172B360724E3 /* OSCMessage.swift */,
+				0A6CC89E471D9FB5579A4E7A869DCAFC /* OSCServer.swift */,
+				30FFC9267D0F8D66A31ABA064290055E /* OSCTypeProtocol.swift */,
+				C3720117A0BEFA58DC9A43F89AFBDBC5 /* String.swift */,
+				2A3883144CFCBA8196A5B67F1BD64B26 /* SwiftOSC.h */,
+				B8913F604A7EFCC5FB198AED9FDA46E3 /* Timer.swift */,
+				25B8617679CB8440A3A66551A111F6C7 /* Timetag.swift */,
+				EF38EED25DF0A1EBC0CFB69BFB8A83F4 /* ysocket.swift */,
+				6E2CC529D9E096D431314AC19BFA436B /* yudpsocket.c */,
+				1D2C842666D90E2EFDFD66149CA16841 /* yudpsocket.swift */,
+				7DFB6191EDD6E24C03B8B89699018C46 /* Support Files */,
+			);
+			name = SwiftOSC;
+			path = SwiftOSC;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EE6CDC4AD1C67B498D9014145FCCD34C /* Pods */,
+				4B9AF8106DCA2BD20C04F79FF5523679 /* Products */,
+				8EB4F030FC041F3F7373B6C2D2C3A3CC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DFB6191EDD6E24C03B8B89699018C46 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				109CA87113F1E95E777886356588B42E /* Info.plist */,
+				4BF8A62864B625202ABD94923B8A6491 /* SwiftOSC.modulemap */,
+				9F2C386F75740648433B387A209A851A /* SwiftOSC.xcconfig */,
+				A877DB5EBD950BF02567349BFCA11564 /* SwiftOSC-dummy.m */,
+				3B768C6B84040669E7858E24DC50BC9A /* SwiftOSC-prefix.pch */,
+				A45A25C8DBDAFC802EBF9C3CF79FE366 /* SwiftOSC-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftOSC";
+			sourceTree = "<group>";
+		};
+		8EB4F030FC041F3F7373B6C2D2C3A3CC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99649410656E5DC95E799FD076269AD0 /* Pods-iPadSketching */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		99649410656E5DC95E799FD076269AD0 /* Pods-iPadSketching */ = {
+			isa = PBXGroup;
+			children = (
+				EA5B649F776EF71475CFF37F7F33A4CF /* Info.plist */,
+				2AFAA5D7E01BCC80886646DA142354CC /* Pods-iPadSketching.modulemap */,
+				A155BD4FBDFFDAAE926E156B58B5CE63 /* Pods-iPadSketching-acknowledgements.markdown */,
+				C43883186D8A9231224EBB0FF0DB62E5 /* Pods-iPadSketching-acknowledgements.plist */,
+				27BAD342037A2B738861DB4229F6B38D /* Pods-iPadSketching-dummy.m */,
+				58C5B9585B03D0A23AD3655DC2A87D1E /* Pods-iPadSketching-frameworks.sh */,
+				A9DE596EEECD6232E95FB2092615FE15 /* Pods-iPadSketching-resources.sh */,
+				840EC2676199BE796B74391E799567C7 /* Pods-iPadSketching-umbrella.h */,
+				C933E22BFE2BBD3A414BB357F40B4559 /* Pods-iPadSketching.debug.xcconfig */,
+				FEB61A9E78B9EB9F07986C58FE0111F2 /* Pods-iPadSketching.release.xcconfig */,
+			);
+			name = "Pods-iPadSketching";
+			path = "Target Support Files/Pods-iPadSketching";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EE6CDC4AD1C67B498D9014145FCCD34C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D21423FCE5B17E5B436A222E1C69603 /* SwiftOSC */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9071192E334DF108C4505E9F6D070EDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A172E6F85380D05A71787EAA3D2752 /* Pods-iPadSketching-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF01451FC23269A5D8A63EFA750A04CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D31F86E1768BE1BF013F647FAA37526 /* SwiftOSC-umbrella.h in Headers */,
+				DFF40121FB6ADBB5F3566C2036DB1A14 /* SwiftOSC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1DC1AA7EED9177253B705A93FD467C34 /* SwiftOSC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5BA950B3D2483D1C3F5060B0D070CB6 /* Build configuration list for PBXNativeTarget "SwiftOSC" */;
+			buildPhases = (
+				5C1275B2AC7B118EBC61339E3A0B5213 /* Sources */,
+				EBB8F54441FE4EE6E0E1DFBE20B0936B /* Frameworks */,
+				AF01451FC23269A5D8A63EFA750A04CF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftOSC;
+			productName = SwiftOSC;
+			productReference = CD13EBF72D6FBFA828270E63CC452808 /* SwiftOSC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		68EE5399AD1288485B9897A9CB46759A /* Pods-iPadSketching */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ACC0551F309807A997C59D565D1FEEA /* Build configuration list for PBXNativeTarget "Pods-iPadSketching" */;
+			buildPhases = (
+				E33DD9B5E195A0E4B1700F69C19E12C9 /* Sources */,
+				F42E83230C9C85420B088EC699BD7488 /* Frameworks */,
+				9071192E334DF108C4505E9F6D070EDA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E3F681979BA81A005487833A869FE08 /* PBXTargetDependency */,
+			);
+			name = "Pods-iPadSketching";
+			productName = "Pods-iPadSketching";
+			productReference = 888C730B1311D946B3D2BF859CA3A05C /* Pods_iPadSketching.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4B9AF8106DCA2BD20C04F79FF5523679 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68EE5399AD1288485B9897A9CB46759A /* Pods-iPadSketching */,
+				1DC1AA7EED9177253B705A93FD467C34 /* SwiftOSC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C1275B2AC7B118EBC61339E3A0B5213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8167D64AAA88E6FEE153F4211D150F /* Blob.swift in Sources */,
+				CCBA606292C5F9F54720D570BDF0BAC9 /* Bool.swift in Sources */,
+				AEF3D517BF05BE00A05543934B825652 /* Extensions.swift in Sources */,
+				D78211422F3A1BF82E1519C015914262 /* Float.swift in Sources */,
+				3C1E834751B6F876D1E97313E87CDABD /* Impulse.swift in Sources */,
+				B842AD83047C7D8E410509764E6E76BB /* Int.swift in Sources */,
+				E103E287C8AFCDF1EC6EE440EB365A01 /* OSCAddress.swift in Sources */,
+				2CB5A18D8129F3F2E98499AD318B2891 /* OSCAddressPattern.swift in Sources */,
+				BEDB47731932E893FB0B0E8314BEAE28 /* OSCBundle.swift in Sources */,
+				60B9AFD13786734B2171E5D67D6210FA /* OSCClient.swift in Sources */,
+				3090FCAD793E72BBAD198B7713E08AAC /* OSCElementProtocol.swift in Sources */,
+				5262B382154AA064A168D0238CDEEB75 /* OSCMessage.swift in Sources */,
+				301136E0F274A55CEA492CE3B286BE28 /* OSCServer.swift in Sources */,
+				CEC80F844A62A6BCBDBE08CC928C1E4A /* OSCTypeProtocol.swift in Sources */,
+				68097B9A649457C6BEBB546F5E25A11C /* String.swift in Sources */,
+				C9D0773427983C085818DEE7C5A9E218 /* SwiftOSC-dummy.m in Sources */,
+				28EE70D91E41FA4A9F561AACE7C7D5CD /* Timer.swift in Sources */,
+				23201F6AA1A84703135A4483DE5DB50A /* Timetag.swift in Sources */,
+				C2CC7D0F09EF4162616479D3B5F0723D /* ysocket.swift in Sources */,
+				A48167E18BB756D81115A07B96EE6324 /* yudpsocket.c in Sources */,
+				7DE821F4AC77F0467F823F45B140E1B4 /* yudpsocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33DD9B5E195A0E4B1700F69C19E12C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341F3395E670A12264F715E1C7D623FC /* Pods-iPadSketching-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E3F681979BA81A005487833A869FE08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftOSC;
+			target = 1DC1AA7EED9177253B705A93FD467C34 /* SwiftOSC */;
+			targetProxy = EBD714F382BF669D95540075BE0A8719 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		29DF9A53E4D38FFC8A9EA1E2D5B01821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C933E22BFE2BBD3A414BB357F40B4559 /* Pods-iPadSketching.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iPadSketching/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iPadSketching/Pods-iPadSketching.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		477ED4C44D3198C526EA06DDFB04627C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F2C386F75740648433B387A209A851A /* SwiftOSC.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftOSC/SwiftOSC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftOSC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftOSC/SwiftOSC.modulemap";
+				PRODUCT_MODULE_NAME = SwiftOSC;
+				PRODUCT_NAME = SwiftOSC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68F2671326A51E773B9AB1FD9ABF5F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F2C386F75740648433B387A209A851A /* SwiftOSC.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftOSC/SwiftOSC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftOSC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftOSC/SwiftOSC.modulemap";
+				PRODUCT_MODULE_NAME = SwiftOSC;
+				PRODUCT_NAME = SwiftOSC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF331FD3436417962AED54C79269070B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEB61A9E78B9EB9F07986C58FE0111F2 /* Pods-iPadSketching.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-iPadSketching/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iPadSketching/Pods-iPadSketching.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ACC0551F309807A997C59D565D1FEEA /* Build configuration list for PBXNativeTarget "Pods-iPadSketching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29DF9A53E4D38FFC8A9EA1E2D5B01821 /* Debug */,
+				BF331FD3436417962AED54C79269070B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5BA950B3D2483D1C3F5060B0D070CB6 /* Build configuration list for PBXNativeTarget "SwiftOSC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F2671326A51E773B9AB1FD9ABF5F15 /* Debug */,
+				477ED4C44D3198C526EA06DDFB04627C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
