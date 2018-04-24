@@ -1,0 +1,1786 @@
+﻿Log file open, 04/24/18 15:02:09
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: UnrealSketching
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1767401498) SRandInit(1767401498).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 3989454, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.253698
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LeapMotion
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin OSC
+LogStreaming: Display: Took  0.090s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Binaries/Win64/UE4Editor-UnrealSketching.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LeapMotion/Binaries/Win64/UE4Editor-LeapMotion.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Plugins/OSC/Binaries/Win64/UE4Editor-OSC.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-NFVIUNB (129.16.216.195:0)
+LeapPluginLog: Using LeapPlugin version 2.0.0
+LogInit: Build: ++UE4+Release-4.19-CL-3989454
+LogInit: Engine Version: 4.19.1-3989454+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr  6 2018 12:26:04
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: D:/UnrealEngine/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.24-13.02.11:137][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.24-13.02.11:137][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.24-13.02.11:149][  0]LogInit: Computer: DESKTOP-NFVIUNB
+[2018.04.24-13.02.11:149][  0]LogInit: User: faculty
+[2018.04.24-13.02.11:149][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.24-13.02.11:149][  0]LogInit: High frequency timer resolution =3.914065 MHz
+[2018.04.24-13.02.11:149][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.04.24-13.02.11:149][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.24-13.02.11:149][  0]LogMemory: Process Physical Memory: 284.88 MB used, 284.88 MB peak
+[2018.04.24-13.02.11:149][  0]LogMemory: Process Virtual Memory: 272.52 MB used, 272.52 MB peak
+[2018.04.24-13.02.11:149][  0]LogMemory: Physical Memory: 7442.03 MB used,  8881.18 MB free, 16323.21 MB total
+[2018.04.24-13.02.11:149][  0]LogMemory: Virtual Memory: 799.47 MB used,  8881.18 MB free, 134217728.00 MB total
+[2018.04.24-13.02.11:162][  0]LogInit: Using OS detected language (en-GB).
+[2018.04.24-13.02.11:162][  0]LogInit: Using OS detected locale (en-GB).
+[2018.04.24-13.02.11:164][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.04.24-13.02.11:546][  0]LogStreaming: Display: Took  0.383s to EndInitTextLocalization.
+[2018.04.24-13.02.11:546][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.24-13.02.11:576][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.04.24-13.02.11:576][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.04.24-13.02.11:738][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.24-13.02.11:780][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.04.24-13.02.11:780][  0]LogD3D11RHI:       8079/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.04.24-13.02.11:781][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.24-13.02.11:782][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.24-13.02.11:782][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.24-13.02.11:788][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.24-13.02.11:788][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.24-13.02.11:788][  0]LogWindows: EnumDisplayDevices:
+[2018.04.24-13.02.11:788][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.04.24-13.02.11:788][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2018.04.24-13.02.11:788][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.04.24-13.02.11:788][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.04.24-13.02.11:788][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.24-13.02.11:788][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.04.24-13.02.11:788][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.24-13.02.11:788][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.24-13.02.11:788][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2018.04.24-13.02.11:816][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.04.24-13.02.11:816][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.04.24-13.02.11:816][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.24-13.02.11:833][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.24-13.02.11:877][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Intermediate/Shaders/WorkingDirectory/14128/).
+[2018.04.24-13.02.11:877][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/faculty/AppData/Local/Temp/UnrealShaderWorkingDir/5F14286740934F93AB551390ABBFAAE2/'.
+[2018.04.24-13.02.12:085][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.24-13.02.12:098][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.24-13.02.12:112][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.24-13.02.12:126][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.24-13.02.12:138][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.24-13.02.12:151][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.24-13.02.12:163][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.24-13.02.12:177][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.24-13.02.12:182][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.24-13.02.12:193][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.24-13.02.12:204][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.24-13.02.12:217][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.24-13.02.12:227][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.04.24-13.02.12:240][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.24-13.02.12:251][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.24-13.02.12:273][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.24-13.02.12:273][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.24-13.02.12:284][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.24-13.02.12:285][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.24-13.02.12:319][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.24-13.02.12:330][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.24-13.02.12:341][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.24-13.02.12:356][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.24-13.02.12:369][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.24-13.02.12:380][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.24-13.02.12:380][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.24-13.02.12:454][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.04.24-13.02.12:454][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.04.24-13.02.12:454][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.24-13.02.13:138][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.24-13.02.13:214][  0]LogDerivedDataCache: Loaded boot cache 0.08s 74MB C:/Users/faculty/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.04.24-13.02.13:214][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/faculty/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.04.24-13.02.13:214][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.24-13.02.13:214][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.24-13.02.13:214][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.24-13.02.13:215][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.24-13.02.13:231][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.24-13.02.13:243][  0]LogDerivedDataCache: Using Local data cache path C:/Users/faculty/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.24-13.02.13:258][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.24-13.02.13:259][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.24-13.02.13:259][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.24-13.02.13:259][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.24-13.02.13:368][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2018.04.24-13.02.13:680][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.24-13.02.13:801][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.24-13.02.13:803][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.24-13.02.13:803][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.24-13.02.13:803][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.24-13.02.13:803][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.24-13.02.13:803][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.24-13.02.13:825][  0]LogNetVersion: UnrealSketching , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 606253289)
+[2018.04.24-13.02.14:235][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 2 prioritized culture(s) in 0.093747 seconds
+[2018.04.24-13.02.14:241][  0]LogUObjectArray: 37413 objects as part of root set at end of initial load.
+[2018.04.24-13.02.14:241][  0]LogUObjectAllocator: 7431000 out of 0 bytes used by permanent object pool.
+[2018.04.24-13.02.14:241][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.24-13.02.15:582][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.24-13.02.15:604][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.24-13.02.15:760][  0]LogOSC: Display: Update settings
+[2018.04.24-13.02.15:760][  0]LogOSC: Display: Send targets cleared
+[2018.04.24-13.02.15:760][  0]LogOSC: Display: Send target added: 127.0.0.1:8000
+[2018.04.24-13.02.15:760][  0]LogOSC: Display: Startup succeed
+[2018.04.24-13.02.15:847][  0]SourceControl: Source control is disabled
+[2018.04.24-13.02.15:847][  0]SourceControl: Source control is disabled
+[2018.04.24-13.02.15:857][  0]SourceControl: Source control is disabled
+[2018.04.24-13.02.15:866][  0]SourceControl: Source control is disabled
+[2018.04.24-13.02.16:181][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.24-13.02.16:291][  0]LogOcInput: OculusInput pre-init called
+[2018.04.24-13.02.16:368][  0]LogEngine: Initializing Engine...
+[2018.04.24-13.02.16:369][  0]LogHMD: Oculus plugin initialized. Version: 4.19.1-3989454+++UE4+Release-4.19, OVRPlugin: 1.21.0
+[2018.04.24-13.02.16:370][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.24-13.02.16:370][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.24-13.02.16:560][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.24-13.02.16:615][  0]LogInit: XAudio2 using 'DELL U2415 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.24-13.02.16:624][  0]LogInit: FAudioDevice initialized.
+[2018.04.24-13.02.16:695][  0]LogDerivedDataCache: Saved boot cache 0.07s 74MB C:/Users/faculty/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.04.24-13.02.16:703][  0]LogInit: Texture streaming: Enabled
+[2018.04.24-13.02.16:713][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.24-13.02.16:723][  0]LogInit: Transaction tracking system initialized
+[2018.04.24-13.02.16:738][  0]BlueprintLog: New page: Editor Load
+[2018.04.24-13.02.16:793][  0]LocalizationService: Localization service is disabled
+[2018.04.24-13.02.16:867][  0]LogConsoleResponse: Display: 
+[2018.04.24-13.02.16:999][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.24-13.02.16:999][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.24-13.02.16:999][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.24-13.02.16:999][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.24-13.02.16:999][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.24-13.02.17:228][  0]LogFileCache: Scanning file cache for directory 'C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Content/' took 0.01s
+[2018.04.24-13.02.17:228][  0]SourceControl: Source control is disabled
+[2018.04.24-13.02.17:228][  0]Cmd: MAP LOAD FILE="C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.24-13.02.17:229][  0]LightingResults: New page: Lighting Build
+[2018.04.24-13.02.17:230][  0]MapCheck: New page: Map Check
+[2018.04.24-13.02.17:230][  0]LightingResults: New page: Lighting Build
+[2018.04.24-13.02.17:510][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.04.24-13.02.17:516][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.24-13.02.17:529][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.24-13.02.17:561][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 32.185ms to complete.
+[2018.04.24-13.02.17:561][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.333
+[2018.04.24-13.02.17:628][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.24-13.02.17:686][  0]LogCollectionManager: Loaded 0 collections in 0.000811 seconds
+[2018.04.24-13.02.17:727][  0]LogFileCache: Scanning file cache for directory 'C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Saved/Collections/' took 0.01s
+[2018.04.24-13.02.17:727][  0]LogFileCache: Scanning file cache for directory 'C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Content/Developers/faculty/Collections/' took 0.01s
+[2018.04.24-13.02.17:727][  0]LogFileCache: Scanning file cache for directory 'C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Content/Collections/' took 0.01s
+[2018.04.24-13.02.17:727][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.04.24-13.02.17:737][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2485 classes and 571 folders.
+[2018.04.24-13.02.17:743][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.04.24-13.02.17:777][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.04.24-13.02.17:781][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.04.24-13.02.17:810][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.24-13.02.17:813][  0]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.24-13.02.17:819][  0]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.24-13.02.17:898][  0]LogRenderer: Reallocating scene render targets to support 1208x652 Format 10 NumSamples 1 (Frame:1).
+[2018.04.24-13.02.18:004][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.04.24-13.02.18:004][  0]LogLoad: (Engine Initialization) Total time: 9.04 seconds
+[2018.04.24-13.02.18:004][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.24-13.02.18:014][  0]LogOcInput: OculusInput is initialized
+[2018.04.24-13.02.18:034][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.24-13.02.18:059][  0]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.04.24-13.02.18:080][  1]LogAssetRegistry: Asset discovery search completed in 4.7339 seconds
+[2018.04.24-13.02.18:081][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.24-13.02.18:082][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
+[2018.04.24-13.02.19:039][109]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.04.24-13.02.24:363][741]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-13.02.24:413][747]LogSlate: Window 'Plugins' being destroyed
+[2018.04.24-13.02.24:416][747]LogSlate: Window 'Plugins' being destroyed
+[2018.04.24-13.02.24:416][747]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2018.04.24-13.02.24:416][747]LogDirectoryWatcher: A directory notification for 'D:/UnrealEngine/UE_4.19/Enterprise/Plugins/' was aborted.
+[2018.04.24-13.02.24:416][747]LogDirectoryWatcher: A directory notification for 'C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Plugins/' was aborted.
+[2018.04.24-13.02.28:952][290]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-13.02.29:153][306]LogAIModule: Creating AISystem for world iPadOSC_Level
+[2018.04.24-13.02.29:168][306]Cmd: MAP LOAD FILE="C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Content/iPadOSC_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.24-13.02.29:168][306]LightingResults: New page: Lighting Build
+[2018.04.24-13.02.29:169][306]LoadErrors: New page: Loading map: iPadOSC_Level.umap
+[2018.04.24-13.02.29:170][306]MapCheck: New page: Map Check
+[2018.04.24-13.02.29:170][306]LightingResults: New page: Lighting Build
+[2018.04.24-13.02.29:183][306]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.24-13.02.29:210][306]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.24-13.02.29:246][306]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 35.857ms to complete.
+[2018.04.24-13.02.29:246][306]LogFileHelpers: Loading map 'iPadOSC_Level' took 0.079
+[2018.04.24-13.03.36:898][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-13.03.39:419][308]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.24-13.03.40:978][492]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.04.43:676][225]Cmd: DELETE
+[2018.04.24-13.04.43:676][225]Cmd: ACTOR DELETE
+[2018.04.24-13.04.43:678][225]LogEditorActor: Deleted Actor: Pawn
+[2018.04.24-13.04.43:688][225]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.04.24-13.04.55:291][990]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.04.24-13.05.12:656][ 61]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.24-13.05.15:521][378]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-13.08.21:340][542]LogSlate: Window 'New Plugin' being destroyed
+[2018.04.24-13.08.21:344][542]LogSlate: Window 'New Plugin' being destroyed
+[2018.04.24-13.08.43:586][210]LogSlate: Window 'Plugins' being destroyed
+[2018.04.24-13.08.43:589][210]LogSlate: Window 'Plugins' being destroyed
+[2018.04.24-13.08.43:589][210]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2018.04.24-13.08.43:589][210]LogDirectoryWatcher: A directory notification for 'D:/UnrealEngine/UE_4.19/Enterprise/Plugins/' was aborted.
+[2018.04.24-13.08.43:589][210]LogDirectoryWatcher: A directory notification for 'C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Plugins/' was aborted.
+[2018.04.24-13.09.23:031][746]LogSlate: Window 'Delete Assets' being destroyed
+[2018.04.24-13.09.54:745][ 28]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.04.24-13.10.02:736][955]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.04.24-13.10.03:424][955]LogRenderer: Reallocating scene render targets to support 1208x808 Format 10 NumSamples 1 (Frame:1).
+[2018.04.24-13.10.13:041][ 39]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.04.24-13.10.22:282][ 94]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.04.24-13.10.23:472][ 94]LogBlueprint: Warning: [Compiler PostProcessChanger] Override pins have been removed from  Break PostProcessSettings  in  PostProcessChanger , please verify the Blueprint works as expected! See tooltips for enabling pin visibility for more details. This warning will go away after you resave the asset!
+[2018.04.24-13.10.23:497][ 94]LogBlueprint: Warning: [Compiler PostProcessChanger] [0494.53] Compile of PostProcessChanger successful, but with 1 Warning(s) [in 128 ms] (/LeapMotion/Blueprints/Utility/PostProcessChanger.PostProcessChanger)
+[2018.04.24-13.10.23:909][ 94]LogBlueprint: Warning: [Compiler LeapFloatingHandsCharacter] InputAction Event references unknown Action 'ChangeImageHandTint' for  InputAction ChangeImageHandTint
+[2018.04.24-13.10.23:909][ 94]LogBlueprint: Warning: [Compiler LeapFloatingHandsCharacter] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2018.04.24-13.10.23:909][ 94]LogBlueprint: Warning: [Compiler LeapFloatingHandsCharacter] InputAction Event references unknown Action 'ChangeHands' for  InputAction ChangeHands
+[2018.04.24-13.10.23:909][ 94]LogBlueprint: Warning: [Compiler LeapFloatingHandsCharacter] InputAction Event references unknown Action 'ResetHMDOrientation' for  InputAction ResetHMDOrientation
+[2018.04.24-13.10.23:909][ 94]LogBlueprint: Warning: [Compiler LeapFloatingHandsCharacter] InputAction Event references unknown Action 'ComfortTurnRight' for  InputAction ComfortTurnRight
+[2018.04.24-13.10.23:909][ 94]LogBlueprint: Warning: [Compiler LeapFloatingHandsCharacter] InputAction Event references unknown Action 'ComfortTurnLeft' for  InputAction ComfortTurnLeft
+[2018.04.24-13.10.23:909][ 94]LogBlueprint: Warning: [Compiler LeapFloatingHandsCharacter] InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2018.04.24-13.10.23:909][ 94]LogBlueprint: Warning: [Compiler LeapFloatingHandsCharacter] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2018.04.24-13.10.23:910][ 94]LogBlueprint: Warning: [Compiler LeapFloatingHandsCharacter] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2018.04.24-13.10.23:910][ 94]LogBlueprint: Warning: [Compiler LeapFloatingHandsCharacter] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2018.04.24-13.10.23:910][ 94]LogBlueprint: Warning: [Compiler LeapFloatingHandsCharacter] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2018.04.24-13.10.23:910][ 94]LogBlueprint: Warning: [Compiler LeapFloatingHandsCharacter] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2018.04.24-13.10.23:916][ 94]LogBlueprint: Warning: [Compiler LeapFloatingHandsCharacter] [0494.95] Compile of LeapFloatingHandsCharacter successful, but with 12 Warning(s) [in 16 ms] (/LeapMotion/Blueprints/Rigging/LeapFloatingHandsCharacter.LeapFloatingHandsCharacter)
+[2018.04.24-13.10.23:953][ 94]LogTexture: Display: Building textures: Icon128 (AutoDXT, 128X128)
+[2018.04.24-13.10.23:953][ 94]LogMaterial: Missing cached shader map for material LeapPassthroughPostProcess, compiling. 
+[2018.04.24-13.10.24:336][ 94]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.04.24-13.10.24:336][ 94]LogSkeletalMesh: Building Skeletal Mesh echo_lo_R...
+[2018.04.24-13.10.24:348][ 94]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /LeapMotion/Character/Echo/echo_lo_R.echo_lo_R
+[2018.04.24-13.10.24:350][ 94]LogMaterial: Missing cached shader map for material hand_mat, compiling. 
+[2018.04.24-13.10.24:389][ 94]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.04.24-13.10.24:389][ 94]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.04.24-13.10.24:389][ 94]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.04.24-13.10.24:389][ 94]LogSkeletalMesh: Building Skeletal Mesh echo_lo_L...
+[2018.04.24-13.10.24:401][ 94]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /LeapMotion/Character/Echo/echo_lo_L.echo_lo_L
+[2018.04.24-13.10.24:408][ 94]LogMaterial: Missing cached shader map for material LeapImageHandMaterial, compiling. 
+[2018.04.24-13.10.24:486][ 94]LogAnimationCompression: Building Anim DDC data for AnimSequence /LeapMotion/Character/Basic/Jump_End.Jump_End
+[2018.04.24-13.10.24:487][ 94]LogAnimationCompression: Recompressing (AnimSequence /LeapMotion/Character/Basic/Jump_End.Jump_End) using current/default (AnimCompress_RemoveLinearKeys_24) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.04.24-13.10.24:514][ 94]LogAnimationCompression: Building Anim DDC data for AnimSequence /LeapMotion/Character/Basic/Run.Run
+[2018.04.24-13.10.24:514][ 94]LogAnimationCompression: Recompressing (AnimSequence /LeapMotion/Character/Basic/Run.Run) using current/default (AnimCompress_RemoveLinearKeys_17) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.04.24-13.10.24:539][ 94]LogAnimationCompression: Building Anim DDC data for AnimSequence /LeapMotion/Character/Basic/Walk.Walk
+[2018.04.24-13.10.24:539][ 94]LogAnimationCompression: Recompressing (AnimSequence /LeapMotion/Character/Basic/Walk.Walk) using current/default (AnimCompress_RemoveLinearKeys_15) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.04.24-13.10.24:929][ 94]LogAnimationCompression: Building Anim DDC data for AnimSequence /LeapMotion/Character/Basic/Idle.Idle
+[2018.04.24-13.10.24:929][ 94]LogAnimationCompression: Recompressing (AnimSequence /LeapMotion/Character/Basic/Idle.Idle) using current/default (AnimCompress_RemoveLinearKeys_13) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.04.24-13.10.25:047][ 94]LogAnimationCompression: Building Anim DDC data for AnimSequence /LeapMotion/Character/Basic/Jump_Loop.Jump_Loop
+[2018.04.24-13.10.25:047][ 94]LogAnimationCompression: Recompressing (AnimSequence /LeapMotion/Character/Basic/Jump_Loop.Jump_Loop) using current/default (AnimCompress_RemoveLinearKeys_22) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.04.24-13.10.25:087][ 94]LogAnimationCompression: Building Anim DDC data for AnimSequence /LeapMotion/Character/Basic/Jump_Start.Jump_Start
+[2018.04.24-13.10.25:087][ 94]LogAnimationCompression: Recompressing (AnimSequence /LeapMotion/Character/Basic/Jump_Start.Jump_Start) using current/default (AnimCompress_RemoveLinearKeys_20) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.04.24-13.10.25:877][150]LogShaderCompilers: Display: Shaders left to compile 102
+[2018.04.24-13.10.26:939][231]LogShaderCompilers: Display: Shaders left to compile 92
+[2018.04.24-13.10.27:355][267]LogShaderCompilers: Display: Shaders left to compile 82
+[2018.04.24-13.10.28:136][335]LogShaderCompilers: Display: Shaders left to compile 72
+[2018.04.24-13.10.29:145][423]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.04.24-13.10.29:331][439]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.04.24-13.10.30:568][536]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.04.24-13.10.30:723][547]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.04.24-13.10.32:193][658]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.04.24-13.10.32:601][688]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.04.24-13.10.33:830][786]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.04.24-13.10.36:305][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/LM" FILE="C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Content/LM.uasset" SILENT=true
+[2018.04.24-13.10.36:316][ 18]LogSavePackage: Save=8.87ms
+[2018.04.24-13.10.36:316][ 18]LogSavePackage: Moving 'C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Saved/LMF42CF89E4F17CA15892B018AAA680EA7.tmp' to 'C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Content/LM.uasset'
+[2018.04.24-13.10.36:318][ 18]LogSavePackage: Display: Finished SavePackage C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Content/LM.uasset
+[2018.04.24-13.10.38:389][228]BlueprintLog: New page: Compile LM
+[2018.04.24-13.10.39:656][332]LogSlate: Window 'LM' being destroyed
+[2018.04.24-13.10.58:116][530]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.04.24-13.11.15:696][631]LogOSC: Display: Stop listening
+[2018.04.24-13.11.15:707][631]LogOSC: Display: Listen to port 8000
+[2018.04.24-13.11.15:707][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-13.11.15:707][631]LogHMD: Initializing OVRPlugin session
+[2018.04.24-13.11.15:759][631]PIE: New page: PIE session: iPadOSC_Level (24 Apr 2018 17:11:15)
+[2018.04.24-13.11.15:759][631]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_iPadOSC_Level
+[2018.04.24-13.11.15:760][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001217s)
+[2018.04.24-13.11.15:761][631]LogAIModule: Creating AISystem for world iPadOSC_Level
+[2018.04.24-13.11.15:761][631]LogPlayLevel: PIE: World Init took: (0.000499s)
+[2018.04.24-13.11.15:761][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/iPadOSC_Level.iPadOSC_Level to /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level (0.001826s)
+[2018.04.24-13.11.15:785][631]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.24-13.11.15:795][631]LogInit: FAudioDevice initialized.
+[2018.04.24-13.11.15:883][631]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.24-13.11.15:922][631]LogLoad: Game class is 'LM_C'
+[2018.04.24-13.11.15:923][631]LogWorld: Bringing World /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level up for play (max tick rate 0) at 2018.04.24-15.11.15
+[2018.04.24-13.11.15:923][631]LogWorld: Bringing up level for play took: 0.000561
+[2018.04.24-13.11.15:926][631]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2018.04.24-13.11.15:926][631]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2018.04.24-13.11.15:929][631]LogBlueprintUserMessages: [OSC_VP_25] Listening for OSC
+[2018.04.24-13.11.15:929][631]Cmd: stereo reset
+[2018.04.24-13.11.15:929][631]Command not recognized: stereo reset
+[2018.04.24-13.11.15:934][631]PIE: Play in editor start time for /Game/UEDPIE_0_iPadOSC_Level -0.129
+[2018.04.24-13.11.15:935][631]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.11.15:939][631]LogRenderer: Reallocating scene render targets to support 2720x1600 Format 10 NumSamples 1 (Frame:1).
+[2018.04.24-13.11.15:940][631]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.24-13.11.20:756][ 63]LogScriptCore: Warning: Script Msg: Divide by zero detected: 23.855120 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.11.20:756][ 63]LogScriptCore: Warning: Script Msg: Divide by zero detected: 23.855120 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.16.49:984][680]LogOSC: Display: Stop listening
+[2018.04.24-13.16.50:079][680]LogSlate: Window 'UnrealSketching Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.24-13.16.50:167][681]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.16.57:081][506]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Screen)
+[2018.04.24-13.17.00:026][852]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-13.17.34:951][976]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.17.36:495][150]MapCheck: New page: Map Check
+[2018.04.24-13.17.36:504][150]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.17.36:506][150]LightingResults: New page: Lighting Build - 24 Apr 2018 17:17:36
+[2018.04.24-13.17.36:538][150]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.04.24-13.17.36:588][150]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.04.24-13.17.36:598][150]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.04.24-13.17.37:105][150]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.04.24-13.17.37:105][150]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14128
+[2018.04.24-13.17.39:579][150]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.04.24-13.17.39:579][150]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.04.24-13.17.39:579][150]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.04.24-13.17.39:579][150]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.04.24-13.17.39:579][150]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.04.24-13.17.39:579][150]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.04.24-13.17.39:670][150]LogEditorBuildUtils: Build time 0:03
+[2018.04.24-13.17.41:332][242]Job is a success!
+[2018.04.24-13.17.41:357][243]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.17.41:384][243]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.006s
+[2018.04.24-13.17.41:384][243]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.04.24-13.17.41:384][243]LogVolumetricLightmapImport:      BrickData 50x5x5 = 0.0Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2018.04.24-13.17.41:384][243]LogVolumetricLightmapImport:      Bricks at Level
+[2018.04.24-13.17.41:384][243]LogVolumetricLightmapImport:          0: 10.0% covering 100.0% of volume
+[2018.04.24-13.17.41:384][243]LogVolumetricLightmapImport:          1: 20.0% covering 3.1% of volume
+[2018.04.24-13.17.41:384][243]LogVolumetricLightmapImport:          2: 70.0% covering 0.2% of volume
+[2018.04.24-13.17.41:412][243]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2018.04.24-13.17.41:412][243]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2018.04.24-13.17.41:412][243]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.04.24-13.17.41:412][243]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.04.24-13.17.41:412][243]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 128X64)
+[2018.04.24-13.17.41:412][243]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.04.24-13.17.41:433][243]Lightmass on DESKTOP-NFVIUNB: 943 ms total, 130 ms importing, 22 ms setup, 378 ms photons, 382 ms processing, 0 ms extra exporting [6/6 mappings]. Threads: 2.50 sec total, 300 ms processing.
+[2018.04.24-13.17.41:465][243]LogStaticLightingSystem: Illumination: 4.93 sec (11 ms encoding lightmaps, 7 ms encoding shadowmaps)
+[2018.04.24-13.17.41:465][243]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.04.24-13.17.41:465][243]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.04.24-13.17.41:582][243]DumpUnbuiltLightIteractions
+[2018.04.24-13.17.41:582][243]Lights with unbuilt interactions: 0
+[2018.04.24-13.17.41:582][243]
+[2018.04.24-13.17.41:582][243]Primitives with unbuilt interactions: 0
+[2018.04.24-13.17.41:588][243]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.17.41:607][244]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.04.24-13.17.41:608][244]MapCheck: New page: iPadOSC_Level - 24 Apr 2018 17:17:41
+[2018.04.24-13.17.41:663][244]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.827ms to complete.
+[2018.04.24-13.17.48:403][ 18]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Screen)
+[2018.04.24-13.17.56:244][942]Cmd: TRANSACTION UNDO
+[2018.04.24-13.17.56:244][942]LogEditorTransaction: Undo Move Actors
+[2018.04.24-13.17.59:640][332]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.24-13.18.00:732][454]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.18.09:387][479]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.04.24-13.18.12:042][792]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.24-13.18.14:047][ 30]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.24-13.18.14:985][139]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.18.15:986][257]LogOSC: Display: Stop listening
+[2018.04.24-13.18.15:997][257]LogOSC: Display: Listen to port 8000
+[2018.04.24-13.18.15:997][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-13.18.15:997][257]LogHMD: Initializing OVRPlugin session
+[2018.04.24-13.18.16:045][257]PIE: New page: PIE session: iPadOSC_Level (24 Apr 2018 17:18:16)
+[2018.04.24-13.18.16:045][257]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_iPadOSC_Level
+[2018.04.24-13.18.16:047][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001287s)
+[2018.04.24-13.18.16:047][257]LogAIModule: Creating AISystem for world iPadOSC_Level
+[2018.04.24-13.18.16:047][257]LogPlayLevel: PIE: World Init took: (0.000601s)
+[2018.04.24-13.18.16:048][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/iPadOSC_Level.iPadOSC_Level to /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level (0.002020s)
+[2018.04.24-13.18.16:074][257]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.24-13.18.16:082][257]LogInit: FAudioDevice initialized.
+[2018.04.24-13.18.16:087][257]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.18.16:115][257]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OSCListener///Thread_23bc_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OSCListener///Thread_2d14_0///####STATCAT_Advanced####
+[2018.04.24-13.18.16:171][257]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.24-13.18.16:198][257]LogLoad: Game class is 'LM_C'
+[2018.04.24-13.18.16:199][257]LogWorld: Bringing World /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level up for play (max tick rate 0) at 2018.04.24-15.18.16
+[2018.04.24-13.18.16:199][257]LogWorld: Bringing up level for play took: 0.000796
+[2018.04.24-13.18.16:201][257]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2018.04.24-13.18.16:202][257]LogBlueprintUserMessages: [OSC_VP_25] Listening for OSC
+[2018.04.24-13.18.16:203][257]Cmd: stereo reset
+[2018.04.24-13.18.16:203][257]Command not recognized: stereo reset
+[2018.04.24-13.18.16:208][257]PIE: Play in editor start time for /Game/UEDPIE_0_iPadOSC_Level 0.145
+[2018.04.24-13.18.16:209][257]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.18.16:211][257]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.24-13.18.16:211][257]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.24-13.18.17:945][413]LogScriptCore: Warning: Script Msg: Divide by zero detected: 27.139229 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.18.17:946][413]LogScriptCore: Warning: Script Msg: Divide by zero detected: 27.139229 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.19.12:569][824]LogOSC: Display: Stop listening
+[2018.04.24-13.19.12:691][824]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.19.12:701][824]LogSlate: Window 'UnrealSketching Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.24-13.19.12:786][825]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.19.23:370][ 70]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.04.24-13.19.25:404][307]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.24-13.19.26:530][440]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.24-13.19.28:131][630]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.24-13.19.30:175][871]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.24-13.19.31:382][ 14]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.24-13.19.32:734][174]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.24-13.19.37:058][639]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.19.44:039][467]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-13.19.50:100][190]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.24-13.19.52:646][491]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-13.19.52:704][498]LogTemp: Repeating last play command: VR Preview
+[2018.04.24-13.19.52:716][498]LogOSC: Display: Stop listening
+[2018.04.24-13.19.52:728][498]LogOSC: Display: Listen to port 8000
+[2018.04.24-13.19.52:728][498]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-13.19.52:728][498]LogHMD: Initializing OVRPlugin session
+[2018.04.24-13.19.52:776][498]PIE: New page: PIE session: iPadOSC_Level (24 Apr 2018 17:19:52)
+[2018.04.24-13.19.52:776][498]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_iPadOSC_Level
+[2018.04.24-13.19.52:778][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001130s)
+[2018.04.24-13.19.52:778][498]LogAIModule: Creating AISystem for world iPadOSC_Level
+[2018.04.24-13.19.52:778][498]LogPlayLevel: PIE: World Init took: (0.000503s)
+[2018.04.24-13.19.52:778][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/iPadOSC_Level.iPadOSC_Level to /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level (0.001742s)
+[2018.04.24-13.19.52:807][498]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.24-13.19.52:815][498]LogInit: FAudioDevice initialized.
+[2018.04.24-13.19.52:851][498]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OSCListener///Thread_396c_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OSCListener///Thread_2d14_0///####STATCAT_Advanced####
+[2018.04.24-13.19.52:907][498]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.24-13.19.52:935][498]LogLoad: Game class is 'LM_C'
+[2018.04.24-13.19.52:937][498]LogWorld: Bringing World /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level up for play (max tick rate 0) at 2018.04.24-15.19.52
+[2018.04.24-13.19.52:937][498]LogWorld: Bringing up level for play took: 0.000689
+[2018.04.24-13.19.52:938][498]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2018.04.24-13.19.52:940][498]LogBlueprintUserMessages: [OSC_VP_25] Listening for OSC
+[2018.04.24-13.19.52:941][498]Cmd: stereo reset
+[2018.04.24-13.19.52:941][498]Command not recognized: stereo reset
+[2018.04.24-13.19.52:946][498]PIE: Play in editor start time for /Game/UEDPIE_0_iPadOSC_Level 0.883
+[2018.04.24-13.19.52:947][498]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.19.52:949][498]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.24-13.19.52:949][498]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.24-13.19.53:417][540]LogScriptCore: Warning: Script Msg: Divide by zero detected: 23.271460 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.19.53:418][540]LogScriptCore: Warning: Script Msg: Divide by zero detected: 23.271460 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.20.07:250][778]LogOSC: Display: Stop listening
+[2018.04.24-13.20.07:293][778]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.20.07:302][778]LogSlate: Window 'UnrealSketching Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.24-13.20.07:390][779]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.20.09:730][ 59]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-13.20.19:549][202]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-13.20.49:181][698]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.20.49:236][698]LogSavePackage: Save=17.04ms
+[2018.04.24-13.20.49:236][698]LogSavePackage: Moving 'C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Saved/iPadOSC_Level_Auto1F44F870845D860BD1CF7F194F14D619C.tmp' to 'C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Saved/Autosaves/Game/iPadOSC_Level_Auto1.umap'
+[2018.04.24-13.20.49:238][698]LogSavePackage: Display: Finished SavePackage C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Saved/Autosaves/Game/iPadOSC_Level_Auto1.umap
+[2018.04.24-13.20.49:240][698]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/iPadOSC_Level' took 0.049
+[2018.04.24-13.20.49:240][698]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.049
+[2018.04.24-13.20.49:242][698]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/iPadOSC_Level_BuiltData] ([1] browsable assets)...
+[2018.04.24-13.20.49:242][698]OBJ SavePackage: Finished generating thumbnails for package [/Game/iPadOSC_Level_BuiltData]
+[2018.04.24-13.20.49:257][698]LogSavePackage: Save=6.60ms
+[2018.04.24-13.20.49:257][698]LogSavePackage: Moving 'C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Saved/iPadOSC_Level_BuiltData_Auto12C22664D4D64F38929F8EF88D93C5573.tmp' to 'C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Saved/Autosaves/Game/iPadOSC_Level_BuiltData_Auto1.uasset'
+[2018.04.24-13.20.49:258][698]LogSavePackage: Display: Finished SavePackage C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Saved/Autosaves/Game/iPadOSC_Level_BuiltData_Auto1.uasset
+[2018.04.24-13.20.49:258][698]LogFileHelpers: Auto-saving content packages took 0.017
+[2018.04.24-13.20.53:936][257]LogTemp: Repeating last play command: VR Preview
+[2018.04.24-13.20.53:946][257]LogOSC: Display: Stop listening
+[2018.04.24-13.20.53:957][257]LogOSC: Display: Listen to port 8000
+[2018.04.24-13.20.53:957][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-13.20.53:957][257]LogHMD: Initializing OVRPlugin session
+[2018.04.24-13.20.54:003][257]PIE: New page: PIE session: iPadOSC_Level (24 Apr 2018 17:20:54)
+[2018.04.24-13.20.54:003][257]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_iPadOSC_Level
+[2018.04.24-13.20.54:005][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001550s)
+[2018.04.24-13.20.54:005][257]LogAIModule: Creating AISystem for world iPadOSC_Level
+[2018.04.24-13.20.54:006][257]LogPlayLevel: PIE: World Init took: (0.000671s)
+[2018.04.24-13.20.54:006][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/iPadOSC_Level.iPadOSC_Level to /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level (0.002380s)
+[2018.04.24-13.20.54:030][257]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.24-13.20.54:036][257]LogInit: FAudioDevice initialized.
+[2018.04.24-13.20.54:066][257]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OSCListener///Thread_14a0_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OSCListener///Thread_2d14_0///####STATCAT_Advanced####
+[2018.04.24-13.20.54:117][257]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.24-13.20.54:144][257]LogLoad: Game class is 'LM_C'
+[2018.04.24-13.20.54:145][257]LogWorld: Bringing World /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level up for play (max tick rate 0) at 2018.04.24-15.20.54
+[2018.04.24-13.20.54:145][257]LogWorld: Bringing up level for play took: 0.000560
+[2018.04.24-13.20.54:146][257]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2018.04.24-13.20.54:148][257]LogBlueprintUserMessages: [OSC_VP_25] Listening for OSC
+[2018.04.24-13.20.54:148][257]Cmd: stereo reset
+[2018.04.24-13.20.54:148][257]Command not recognized: stereo reset
+[2018.04.24-13.20.54:154][257]PIE: Play in editor start time for /Game/UEDPIE_0_iPadOSC_Level 0.091
+[2018.04.24-13.20.54:155][257]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.20.54:156][257]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.24-13.20.54:156][257]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.24-13.20.55:298][360]LogScriptCore: Warning: Script Msg: Divide by zero detected: 22.849094 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.20.55:298][360]LogScriptCore: Warning: Script Msg: Divide by zero detected: 22.849094 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.21.08:732][562]LogOSC: Display: Stop listening
+[2018.04.24-13.21.08:820][562]LogSlate: Window 'UnrealSketching Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.24-13.21.08:914][563]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.21.10:274][725]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Screen)
+[2018.04.24-13.21.11:336][845]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.24-13.21.12:048][925]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Screen)
+[2018.04.24-13.21.14:953][265]Cmd: TRANSACTION UNDO
+[2018.04.24-13.21.14:953][265]LogEditorTransaction: Undo Move Actors
+[2018.04.24-13.21.16:047][388]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-13.21.21:046][962]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-13.21.21:812][ 53]LogTemp: Repeating last play command: VR Preview
+[2018.04.24-13.21.21:825][ 53]LogOSC: Display: Stop listening
+[2018.04.24-13.21.21:836][ 53]LogOSC: Display: Listen to port 8000
+[2018.04.24-13.21.21:836][ 53]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-13.21.21:836][ 53]LogHMD: Initializing OVRPlugin session
+[2018.04.24-13.21.21:884][ 53]PIE: New page: PIE session: iPadOSC_Level (24 Apr 2018 17:21:21)
+[2018.04.24-13.21.21:884][ 53]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_iPadOSC_Level
+[2018.04.24-13.21.21:886][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001198s)
+[2018.04.24-13.21.21:886][ 53]LogAIModule: Creating AISystem for world iPadOSC_Level
+[2018.04.24-13.21.21:886][ 53]LogPlayLevel: PIE: World Init took: (0.000474s)
+[2018.04.24-13.21.21:886][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/iPadOSC_Level.iPadOSC_Level to /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level (0.001786s)
+[2018.04.24-13.21.21:917][ 53]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.24-13.21.21:926][ 53]LogInit: FAudioDevice initialized.
+[2018.04.24-13.21.21:957][ 53]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OSCListener///Thread_2f20_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OSCListener///Thread_2d14_0///####STATCAT_Advanced####
+[2018.04.24-13.21.22:014][ 53]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.24-13.21.22:040][ 53]LogLoad: Game class is 'LM_C'
+[2018.04.24-13.21.22:042][ 53]LogWorld: Bringing World /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level up for play (max tick rate 0) at 2018.04.24-15.21.22
+[2018.04.24-13.21.22:042][ 53]LogWorld: Bringing up level for play took: 0.000696
+[2018.04.24-13.21.22:043][ 53]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2018.04.24-13.21.22:046][ 53]LogBlueprintUserMessages: [OSC_VP_25] Listening for OSC
+[2018.04.24-13.21.22:046][ 53]Cmd: stereo reset
+[2018.04.24-13.21.22:047][ 53]Command not recognized: stereo reset
+[2018.04.24-13.21.22:051][ 53]PIE: Play in editor start time for /Game/UEDPIE_0_iPadOSC_Level -0.012
+[2018.04.24-13.21.22:052][ 53]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.21.22:055][ 53]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.24-13.21.22:055][ 53]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.24-13.21.27:267][522]LogScriptCore: Warning: Script Msg: Divide by zero detected: 24.545933 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.21.27:267][522]LogScriptCore: Warning: Script Msg: Divide by zero detected: 24.545933 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.21.33:843][106]LogOSC: Display: Stop listening
+[2018.04.24-13.21.33:902][106]LogSlate: Window 'UnrealSketching Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.24-13.21.33:997][107]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.21.47:028][651]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.21.51:595][196]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-13.21.51:661][204]LogTemp: Repeating last play command: VR Preview
+[2018.04.24-13.21.51:672][204]LogOSC: Display: Stop listening
+[2018.04.24-13.21.51:684][204]LogOSC: Display: Listen to port 8000
+[2018.04.24-13.21.51:684][204]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-13.21.51:684][204]LogHMD: Initializing OVRPlugin session
+[2018.04.24-13.21.51:730][204]PIE: New page: PIE session: iPadOSC_Level (24 Apr 2018 17:21:51)
+[2018.04.24-13.21.51:730][204]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_iPadOSC_Level
+[2018.04.24-13.21.51:732][204]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001119s)
+[2018.04.24-13.21.51:732][204]LogAIModule: Creating AISystem for world iPadOSC_Level
+[2018.04.24-13.21.51:732][204]LogPlayLevel: PIE: World Init took: (0.000475s)
+[2018.04.24-13.21.51:732][204]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/iPadOSC_Level.iPadOSC_Level to /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level (0.001688s)
+[2018.04.24-13.21.51:760][204]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.24-13.21.51:768][204]LogInit: FAudioDevice initialized.
+[2018.04.24-13.21.51:801][204]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OSCListener///Thread_396c_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OSCListener///Thread_2d14_0///####STATCAT_Advanced####
+[2018.04.24-13.21.51:856][204]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.24-13.21.51:883][204]LogLoad: Game class is 'LM_C'
+[2018.04.24-13.21.51:884][204]LogWorld: Bringing World /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level up for play (max tick rate 0) at 2018.04.24-15.21.51
+[2018.04.24-13.21.51:885][204]LogWorld: Bringing up level for play took: 0.000719
+[2018.04.24-13.21.51:886][204]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2018.04.24-13.21.51:889][204]LogBlueprintUserMessages: [OSC_VP_25] Listening for OSC
+[2018.04.24-13.21.51:889][204]Cmd: stereo reset
+[2018.04.24-13.21.51:889][204]Command not recognized: stereo reset
+[2018.04.24-13.21.51:894][204]PIE: Play in editor start time for /Game/UEDPIE_0_iPadOSC_Level -0.169
+[2018.04.24-13.21.51:895][204]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.21.51:896][204]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.24-13.21.51:896][204]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.24-13.22.01:357][ 48]LogOSC: Display: Stop listening
+[2018.04.24-13.22.01:431][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.22.01:441][ 48]LogSlate: Window 'UnrealSketching Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.24-13.22.01:531][ 49]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.22.03:088][235]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.04.24-13.22.05:856][561]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.24-13.22.06:842][678]Cmd: TRANSACTION UNDO
+[2018.04.24-13.22.06:842][678]LogEditorTransaction: Undo Move Actors
+[2018.04.24-13.22.07:307][731]LogEditorViewport: Clicking Background
+[2018.04.24-13.22.09:270][961]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-13.22.15:139][649]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.22.18:918][ 98]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.04.24-13.22.20:078][234]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (iPad)
+[2018.04.24-13.22.23:445][630]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-13.22.23:504][637]LogTemp: Repeating last play command: VR Preview
+[2018.04.24-13.22.23:514][637]LogOSC: Display: Stop listening
+[2018.04.24-13.22.23:526][637]LogOSC: Display: Listen to port 8000
+[2018.04.24-13.22.23:526][637]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-13.22.23:526][637]LogHMD: Initializing OVRPlugin session
+[2018.04.24-13.22.23:572][637]PIE: New page: PIE session: iPadOSC_Level (24 Apr 2018 17:22:23)
+[2018.04.24-13.22.23:572][637]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_iPadOSC_Level
+[2018.04.24-13.22.23:573][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001054s)
+[2018.04.24-13.22.23:574][637]LogAIModule: Creating AISystem for world iPadOSC_Level
+[2018.04.24-13.22.23:574][637]LogPlayLevel: PIE: World Init took: (0.000478s)
+[2018.04.24-13.22.23:574][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/iPadOSC_Level.iPadOSC_Level to /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level (0.001626s)
+[2018.04.24-13.22.23:599][637]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.24-13.22.23:607][637]LogInit: FAudioDevice initialized.
+[2018.04.24-13.22.23:642][637]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OSCListener///Thread_3a68_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OSCListener///Thread_2d14_0///####STATCAT_Advanced####
+[2018.04.24-13.22.23:698][637]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.24-13.22.23:726][637]LogLoad: Game class is 'LM_C'
+[2018.04.24-13.22.23:727][637]LogWorld: Bringing World /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level up for play (max tick rate 0) at 2018.04.24-15.22.23
+[2018.04.24-13.22.23:727][637]LogWorld: Bringing up level for play took: 0.000592
+[2018.04.24-13.22.23:728][637]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2018.04.24-13.22.23:730][637]LogBlueprintUserMessages: [OSC_VP_25] Listening for OSC
+[2018.04.24-13.22.23:731][637]Cmd: stereo reset
+[2018.04.24-13.22.23:731][637]Command not recognized: stereo reset
+[2018.04.24-13.22.23:736][637]PIE: Play in editor start time for /Game/UEDPIE_0_iPadOSC_Level -0.328
+[2018.04.24-13.22.23:736][637]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.22.23:740][637]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.24-13.22.23:740][637]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.24-13.22.58:629][777]LogScriptCore: Warning: Script Msg: Divide by zero detected: 26.094368 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.22.58:629][777]LogScriptCore: Warning: Script Msg: Divide by zero detected: 26.094368 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.23.20:171][708]LogOSC: Display: Stop listening
+[2018.04.24-13.23.20:214][708]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.23.20:223][708]LogSlate: Window 'UnrealSketching Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.24-13.23.20:313][709]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.23.23:790][124]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-13.23.31:188][  0]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.04.24-13.23.32:014][ 95]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (iPad)
+[2018.04.24-13.23.41:070][165]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.23.46:420][800]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-13.23.46:486][808]LogTemp: Repeating last play command: VR Preview
+[2018.04.24-13.23.46:497][808]LogOSC: Display: Stop listening
+[2018.04.24-13.23.46:508][808]LogOSC: Display: Listen to port 8000
+[2018.04.24-13.23.46:508][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-13.23.46:508][808]LogHMD: Initializing OVRPlugin session
+[2018.04.24-13.23.46:558][808]PIE: New page: PIE session: iPadOSC_Level (24 Apr 2018 17:23:46)
+[2018.04.24-13.23.46:559][808]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_iPadOSC_Level
+[2018.04.24-13.23.46:560][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001601s)
+[2018.04.24-13.23.46:561][808]LogAIModule: Creating AISystem for world iPadOSC_Level
+[2018.04.24-13.23.46:561][808]LogPlayLevel: PIE: World Init took: (0.000764s)
+[2018.04.24-13.23.46:561][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/iPadOSC_Level.iPadOSC_Level to /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level (0.002540s)
+[2018.04.24-13.23.46:587][808]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.24-13.23.46:593][808]LogInit: FAudioDevice initialized.
+[2018.04.24-13.23.46:622][808]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OSCListener///Thread_3444_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OSCListener///Thread_2d14_0///####STATCAT_Advanced####
+[2018.04.24-13.23.46:672][808]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.24-13.23.46:700][808]LogLoad: Game class is 'LM_C'
+[2018.04.24-13.23.46:701][808]LogWorld: Bringing World /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level up for play (max tick rate 0) at 2018.04.24-15.23.46
+[2018.04.24-13.23.46:701][808]LogWorld: Bringing up level for play took: 0.000561
+[2018.04.24-13.23.46:702][808]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2018.04.24-13.23.46:704][808]LogBlueprintUserMessages: [OSC_VP_25] Listening for OSC
+[2018.04.24-13.23.46:705][808]Cmd: stereo reset
+[2018.04.24-13.23.46:705][808]Command not recognized: stereo reset
+[2018.04.24-13.23.46:710][808]PIE: Play in editor start time for /Game/UEDPIE_0_iPadOSC_Level 0.646
+[2018.04.24-13.23.46:710][808]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.23.46:715][808]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.24-13.23.46:715][808]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.24-13.23.47:253][857]LogScriptCore: Warning: Script Msg: Divide by zero detected: 27.134272 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.23.47:253][857]LogScriptCore: Warning: Script Msg: Divide by zero detected: 27.134272 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.24.00:592][ 51]LogOSC: Display: Stop listening
+[2018.04.24-13.24.00:672][ 51]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.24.00:680][ 51]LogSlate: Window 'UnrealSketching Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.24-13.24.00:768][ 52]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.24.05:888][664]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-13.24.11:361][304]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.24.16:277][881]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-13.24.16:343][889]LogTemp: Repeating last play command: VR Preview
+[2018.04.24-13.24.16:356][889]LogOSC: Display: Stop listening
+[2018.04.24-13.24.16:368][889]LogOSC: Display: Listen to port 8000
+[2018.04.24-13.24.16:368][889]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-13.24.16:368][889]LogHMD: Initializing OVRPlugin session
+[2018.04.24-13.24.16:414][889]PIE: New page: PIE session: iPadOSC_Level (24 Apr 2018 17:24:16)
+[2018.04.24-13.24.16:414][889]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_iPadOSC_Level
+[2018.04.24-13.24.16:416][889]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001480s)
+[2018.04.24-13.24.16:416][889]LogAIModule: Creating AISystem for world iPadOSC_Level
+[2018.04.24-13.24.16:416][889]LogPlayLevel: PIE: World Init took: (0.000527s)
+[2018.04.24-13.24.16:416][889]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/iPadOSC_Level.iPadOSC_Level to /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level (0.002123s)
+[2018.04.24-13.24.16:437][889]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.24-13.24.16:451][889]LogInit: FAudioDevice initialized.
+[2018.04.24-13.24.16:485][889]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OSCListener///Thread_16b0_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OSCListener///Thread_2d14_0///####STATCAT_Advanced####
+[2018.04.24-13.24.16:541][889]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.24-13.24.16:568][889]LogLoad: Game class is 'LM_C'
+[2018.04.24-13.24.16:569][889]LogWorld: Bringing World /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level up for play (max tick rate 0) at 2018.04.24-15.24.16
+[2018.04.24-13.24.16:569][889]LogWorld: Bringing up level for play took: 0.000589
+[2018.04.24-13.24.16:570][889]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2018.04.24-13.24.16:572][889]LogBlueprintUserMessages: [OSC_VP_25] Listening for OSC
+[2018.04.24-13.24.16:573][889]Cmd: stereo reset
+[2018.04.24-13.24.16:573][889]Command not recognized: stereo reset
+[2018.04.24-13.24.16:577][889]PIE: Play in editor start time for /Game/UEDPIE_0_iPadOSC_Level 0.514
+[2018.04.24-13.24.16:578][889]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.24.16:579][889]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.24-13.24.16:579][889]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.24-13.24.17:143][940]LogScriptCore: Warning: Script Msg: Divide by zero detected: 22.623476 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.24.17:143][940]LogScriptCore: Warning: Script Msg: Divide by zero detected: 22.623476 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.24.54:211][268]LogOSC: Display: Stop listening
+[2018.04.24-13.24.54:298][268]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.24.54:307][268]LogSlate: Window 'UnrealSketching Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.24-13.24.54:391][269]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.26.32:004][979]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.26.33:074][106]LogOSC: Display: Stop listening
+[2018.04.24-13.26.33:085][106]LogOSC: Display: Listen to port 8000
+[2018.04.24-13.26.33:085][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-13.26.33:085][106]LogHMD: Initializing OVRPlugin session
+[2018.04.24-13.26.33:134][106]PIE: New page: PIE session: iPadOSC_Level (24 Apr 2018 17:26:33)
+[2018.04.24-13.26.33:134][106]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_iPadOSC_Level
+[2018.04.24-13.26.33:135][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001117s)
+[2018.04.24-13.26.33:135][106]LogAIModule: Creating AISystem for world iPadOSC_Level
+[2018.04.24-13.26.33:136][106]LogPlayLevel: PIE: World Init took: (0.000519s)
+[2018.04.24-13.26.33:136][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/iPadOSC_Level.iPadOSC_Level to /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level (0.001741s)
+[2018.04.24-13.26.33:162][106]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.24-13.26.33:169][106]LogInit: FAudioDevice initialized.
+[2018.04.24-13.26.33:174][106]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.26.33:196][106]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OSCListener///Thread_36a8_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OSCListener///Thread_2d14_0///####STATCAT_Advanced####
+[2018.04.24-13.26.33:250][106]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.24-13.26.33:278][106]LogLoad: Game class is 'LM_C'
+[2018.04.24-13.26.33:278][106]LogWorld: Bringing World /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level up for play (max tick rate 0) at 2018.04.24-15.26.33
+[2018.04.24-13.26.33:279][106]LogWorld: Bringing up level for play took: 0.000547
+[2018.04.24-13.26.33:280][106]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2018.04.24-13.26.33:282][106]LogBlueprintUserMessages: [OSC_VP_25] Listening for OSC
+[2018.04.24-13.26.33:282][106]Cmd: stereo reset
+[2018.04.24-13.26.33:282][106]Command not recognized: stereo reset
+[2018.04.24-13.26.33:287][106]PIE: Play in editor start time for /Game/UEDPIE_0_iPadOSC_Level -0.777
+[2018.04.24-13.26.33:287][106]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.26.33:289][106]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.24-13.26.33:289][106]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.24-13.26.40:631][767]LogScriptCore: Warning: Script Msg: Divide by zero detected: 25.311750 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.26.40:631][767]LogScriptCore: Warning: Script Msg: Divide by zero detected: 25.311750 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.26.47:673][394]LogOSC: Display: Stop listening
+[2018.04.24-13.26.47:754][394]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.26.47:764][394]LogSlate: Window 'UnrealSketching Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.24-13.26.47:857][395]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.26.47:880][397]Cmd: SELECT NONE
+[2018.04.24-13.26.51:433][822]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (iPad)
+[2018.04.24-13.26.55:934][350]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.27.01:667][ 32]LogOSC: Display: Stop listening
+[2018.04.24-13.27.01:679][ 32]LogOSC: Display: Listen to port 8000
+[2018.04.24-13.27.01:679][ 32]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-13.27.01:679][ 32]LogHMD: Initializing OVRPlugin session
+[2018.04.24-13.27.01:725][ 32]PIE: New page: PIE session: iPadOSC_Level (24 Apr 2018 17:27:01)
+[2018.04.24-13.27.01:725][ 32]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_iPadOSC_Level
+[2018.04.24-13.27.01:727][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002080s)
+[2018.04.24-13.27.01:728][ 32]LogAIModule: Creating AISystem for world iPadOSC_Level
+[2018.04.24-13.27.01:728][ 32]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2018.04.24-13.27.01:728][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/iPadOSC_Level.iPadOSC_Level to /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level (0.003076s)
+[2018.04.24-13.27.01:754][ 32]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.24-13.27.01:761][ 32]LogInit: FAudioDevice initialized.
+[2018.04.24-13.27.01:766][ 32]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.27.01:791][ 32]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OSCListener///Thread_3458_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OSCListener///Thread_2d14_0///####STATCAT_Advanced####
+[2018.04.24-13.27.01:847][ 32]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.24-13.27.01:873][ 32]LogLoad: Game class is 'LM_C'
+[2018.04.24-13.27.01:874][ 32]LogWorld: Bringing World /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level up for play (max tick rate 0) at 2018.04.24-15.27.01
+[2018.04.24-13.27.01:875][ 32]LogWorld: Bringing up level for play took: 0.000640
+[2018.04.24-13.27.01:876][ 32]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2018.04.24-13.27.01:878][ 32]LogBlueprintUserMessages: [OSC_VP_25] Listening for OSC
+[2018.04.24-13.27.01:878][ 32]Cmd: stereo reset
+[2018.04.24-13.27.01:878][ 32]Command not recognized: stereo reset
+[2018.04.24-13.27.01:882][ 32]PIE: Play in editor start time for /Game/UEDPIE_0_iPadOSC_Level -0.181
+[2018.04.24-13.27.01:883][ 32]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.27.01:884][ 32]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.24-13.27.01:884][ 32]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.24-13.27.05:587][366]LogScriptCore: Warning: Script Msg: Divide by zero detected: 27.443430 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.27.05:587][366]LogScriptCore: Warning: Script Msg: Divide by zero detected: 27.443430 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.27.15:381][240]LogOSC: Display: Stop listening
+[2018.04.24-13.27.15:444][240]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.27.15:453][240]LogSlate: Window 'UnrealSketching Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.24-13.27.15:545][241]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.27.17:771][506]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (iPad)
+[2018.04.24-13.27.25:436][411]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.27.26:264][508]LogOSC: Display: Stop listening
+[2018.04.24-13.27.26:275][508]LogOSC: Display: Listen to port 8000
+[2018.04.24-13.27.26:275][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-13.27.26:275][508]LogHMD: Initializing OVRPlugin session
+[2018.04.24-13.27.26:326][508]PIE: New page: PIE session: iPadOSC_Level (24 Apr 2018 17:27:26)
+[2018.04.24-13.27.26:326][508]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_iPadOSC_Level
+[2018.04.24-13.27.26:328][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001517s)
+[2018.04.24-13.27.26:329][508]LogAIModule: Creating AISystem for world iPadOSC_Level
+[2018.04.24-13.27.26:329][508]LogPlayLevel: PIE: World Init took: (0.000682s)
+[2018.04.24-13.27.26:329][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/iPadOSC_Level.iPadOSC_Level to /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level (0.002317s)
+[2018.04.24-13.27.26:353][508]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.24-13.27.26:360][508]LogInit: FAudioDevice initialized.
+[2018.04.24-13.27.26:365][508]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.27.26:390][508]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OSCListener///Thread_2c9c_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OSCListener///Thread_2d14_0///####STATCAT_Advanced####
+[2018.04.24-13.27.26:445][508]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.24-13.27.26:473][508]LogLoad: Game class is 'LM_C'
+[2018.04.24-13.27.26:474][508]LogWorld: Bringing World /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level up for play (max tick rate 0) at 2018.04.24-15.27.26
+[2018.04.24-13.27.26:474][508]LogWorld: Bringing up level for play took: 0.000586
+[2018.04.24-13.27.26:476][508]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2018.04.24-13.27.26:478][508]LogBlueprintUserMessages: [OSC_VP_25] Listening for OSC
+[2018.04.24-13.27.26:479][508]Cmd: stereo reset
+[2018.04.24-13.27.26:479][508]Command not recognized: stereo reset
+[2018.04.24-13.27.26:482][508]PIE: Play in editor start time for /Game/UEDPIE_0_iPadOSC_Level 0.419
+[2018.04.24-13.27.26:483][508]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.27.26:484][508]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.24-13.27.26:484][508]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.24-13.27.30:501][869]LogScriptCore: Warning: Script Msg: Divide by zero detected: 26.926651 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.27.30:501][869]LogScriptCore: Warning: Script Msg: Divide by zero detected: 26.926651 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.28.10:345][447]LogOSC: Display: Stop listening
+[2018.04.24-13.28.10:423][447]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.28.10:432][447]LogSlate: Window 'UnrealSketching Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.24-13.28.10:518][448]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.28.11:927][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Screen)
+[2018.04.24-13.28.14:396][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (iPad)
+[2018.04.24-13.28.22:059][804]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-13.28.30:252][773]LogOSC: Display: Stop listening
+[2018.04.24-13.28.30:263][773]LogOSC: Display: Listen to port 8000
+[2018.04.24-13.28.30:263][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-13.28.30:263][773]LogHMD: Initializing OVRPlugin session
+[2018.04.24-13.28.30:313][773]PIE: New page: PIE session: iPadOSC_Level (24 Apr 2018 17:28:30)
+[2018.04.24-13.28.30:313][773]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_iPadOSC_Level
+[2018.04.24-13.28.30:315][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001900s)
+[2018.04.24-13.28.30:315][773]LogAIModule: Creating AISystem for world iPadOSC_Level
+[2018.04.24-13.28.30:316][773]LogPlayLevel: PIE: World Init took: (0.000747s)
+[2018.04.24-13.28.30:316][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/iPadOSC_Level.iPadOSC_Level to /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level (0.002936s)
+[2018.04.24-13.28.30:344][773]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.24-13.28.30:352][773]LogInit: FAudioDevice initialized.
+[2018.04.24-13.28.30:382][773]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OSCListener///Thread_174_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OSCListener///Thread_2d14_0///####STATCAT_Advanced####
+[2018.04.24-13.28.30:432][773]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.24-13.28.30:459][773]LogLoad: Game class is 'LM_C'
+[2018.04.24-13.28.30:460][773]LogWorld: Bringing World /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level up for play (max tick rate 0) at 2018.04.24-15.28.30
+[2018.04.24-13.28.30:461][773]LogWorld: Bringing up level for play took: 0.000756
+[2018.04.24-13.28.30:462][773]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2018.04.24-13.28.30:464][773]LogBlueprintUserMessages: [OSC_VP_25] Listening for OSC
+[2018.04.24-13.28.30:464][773]Cmd: stereo reset
+[2018.04.24-13.28.30:465][773]Command not recognized: stereo reset
+[2018.04.24-13.28.30:470][773]PIE: Play in editor start time for /Game/UEDPIE_0_iPadOSC_Level 0.407
+[2018.04.24-13.28.30:471][773]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.28.30:473][773]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.24-13.28.30:473][773]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.24-13.28.30:488][774]LogScriptCore: Warning: Script Msg: Divide by zero detected: 25.926559 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.28.30:488][774]LogScriptCore: Warning: Script Msg: Divide by zero detected: 25.926559 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.29.53:403][229]LogOSC: Display: Stop listening
+[2018.04.24-13.29.53:442][229]LogSlate: Window 'UnrealSketching Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.24-13.29.53:534][230]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.31.48:927][821]LogMaterial: Warning: Material /Game/StarterContent/Particles/Materials/M_Spark.M_Spark needed to have new flag set bUsedWithStaticLighting !
+[2018.04.24-13.31.48:928][821]LogMaterial: Missing cached shader map for material M_Spark, compiling. 
+[2018.04.24-13.31.48:962][822]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.04.24-13.31.48:962][822]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.04.24-13.31.48:962][822]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.04.24-13.32.55:670][556]LogOSC: Display: Stop listening
+[2018.04.24-13.32.55:682][556]LogOSC: Display: Listen to port 8000
+[2018.04.24-13.32.55:682][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-13.32.55:682][556]LogHMD: Initializing OVRPlugin session
+[2018.04.24-13.32.55:734][556]PIE: New page: PIE session: iPadOSC_Level (24 Apr 2018 17:32:55)
+[2018.04.24-13.32.55:734][556]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_iPadOSC_Level
+[2018.04.24-13.32.55:735][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001578s)
+[2018.04.24-13.32.55:736][556]LogAIModule: Creating AISystem for world iPadOSC_Level
+[2018.04.24-13.32.55:736][556]LogPlayLevel: PIE: World Init took: (0.000721s)
+[2018.04.24-13.32.55:736][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/iPadOSC_Level.iPadOSC_Level to /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level (0.002446s)
+[2018.04.24-13.32.55:762][556]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.24-13.32.55:769][556]LogInit: FAudioDevice initialized.
+[2018.04.24-13.32.55:799][556]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OSCListener///Thread_2f54_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OSCListener///Thread_2d14_0///####STATCAT_Advanced####
+[2018.04.24-13.32.55:850][556]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.24-13.32.55:877][556]LogLoad: Game class is 'LM_C'
+[2018.04.24-13.32.55:878][556]LogWorld: Bringing World /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level up for play (max tick rate 0) at 2018.04.24-15.32.55
+[2018.04.24-13.32.55:878][556]LogWorld: Bringing up level for play took: 0.000621
+[2018.04.24-13.32.55:879][556]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2018.04.24-13.32.55:881][556]LogBlueprintUserMessages: [OSC_VP_25] Listening for OSC
+[2018.04.24-13.32.55:881][556]Cmd: stereo reset
+[2018.04.24-13.32.55:881][556]Command not recognized: stereo reset
+[2018.04.24-13.32.55:887][556]PIE: Play in editor start time for /Game/UEDPIE_0_iPadOSC_Level -0.177
+[2018.04.24-13.32.55:887][556]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.32.55:889][556]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.24-13.32.55:889][556]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.24-13.33.06:837][534]LogOSC: Display: Stop listening
+[2018.04.24-13.33.06:937][534]LogSlate: Window 'UnrealSketching Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.24-13.33.07:027][535]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.33.13:787][338]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.33.22:579][389]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.24-13.33.24:443][611]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.24-13.33.25:512][738]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.24-13.33.27:593][983]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.24-13.33.28:921][141]Cmd: TRANSACTION UNDO
+[2018.04.24-13.33.28:921][141]LogEditorTransaction: Undo Move Actors
+[2018.04.24-13.33.29:291][179]Cmd: TRANSACTION UNDO
+[2018.04.24-13.33.29:291][179]LogEditorTransaction: Undo Move Actors
+[2018.04.24-13.33.29:612][214]Cmd: TRANSACTION UNDO
+[2018.04.24-13.33.29:612][214]LogEditorTransaction: Undo Move Actors
+[2018.04.24-13.33.30:118][274]Cmd: TRANSACTION UNDO
+[2018.04.24-13.33.30:118][274]LogEditorTransaction: Undo Move Actors
+[2018.04.24-13.33.30:543][324]Cmd: TRANSACTION UNDO
+[2018.04.24-13.33.30:543][324]LogEditorTransaction: Undo Marquee Select
+[2018.04.24-13.33.31:977][495]Cmd: TRANSACTION UNDO
+[2018.04.24-13.33.31:977][495]LogEditorTransaction: Undo Replace component used material
+[2018.04.24-13.33.32:695][580]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.04.24-13.33.34:594][804]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.24-13.33.43:920][916]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.33.49:468][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (iPad)
+[2018.04.24-13.33.52:694][958]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.04.24-13.33.54:339][152]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.24-13.33.55:292][265]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.24-13.33.56:997][465]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.24-13.33.58:285][618]LogEditorViewport: Clicking Background
+[2018.04.24-13.33.59:175][724]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.04.24-13.34.01:015][940]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.34.06:415][579]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.34.07:363][691]LogOSC: Display: Stop listening
+[2018.04.24-13.34.07:374][691]LogOSC: Display: Listen to port 8000
+[2018.04.24-13.34.07:374][691]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-13.34.07:374][691]LogHMD: Initializing OVRPlugin session
+[2018.04.24-13.34.07:425][691]PIE: New page: PIE session: iPadOSC_Level (24 Apr 2018 17:34:07)
+[2018.04.24-13.34.07:425][691]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_iPadOSC_Level
+[2018.04.24-13.34.07:427][691]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001395s)
+[2018.04.24-13.34.07:427][691]LogAIModule: Creating AISystem for world iPadOSC_Level
+[2018.04.24-13.34.07:427][691]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2018.04.24-13.34.07:427][691]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/iPadOSC_Level.iPadOSC_Level to /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level (0.002277s)
+[2018.04.24-13.34.07:455][691]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.24-13.34.07:462][691]LogInit: FAudioDevice initialized.
+[2018.04.24-13.34.07:467][691]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.34.07:490][691]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OSCListener///Thread_2c38_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OSCListener///Thread_2d14_0///####STATCAT_Advanced####
+[2018.04.24-13.34.07:546][691]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.24-13.34.07:573][691]LogLoad: Game class is 'LM_C'
+[2018.04.24-13.34.07:574][691]LogWorld: Bringing World /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level up for play (max tick rate 0) at 2018.04.24-15.34.07
+[2018.04.24-13.34.07:574][691]LogWorld: Bringing up level for play took: 0.000598
+[2018.04.24-13.34.07:575][691]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2018.04.24-13.34.07:578][691]LogBlueprintUserMessages: [OSC_VP_25] Listening for OSC
+[2018.04.24-13.34.07:578][691]Cmd: stereo reset
+[2018.04.24-13.34.07:578][691]Command not recognized: stereo reset
+[2018.04.24-13.34.07:582][691]PIE: Play in editor start time for /Game/UEDPIE_0_iPadOSC_Level -0.481
+[2018.04.24-13.34.07:583][691]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.34.07:584][691]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.24-13.34.07:584][691]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.24-13.34.14:692][330]LogScriptCore: Warning: Script Msg: Divide by zero detected: 24.992451 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.34.14:692][330]LogScriptCore: Warning: Script Msg: Divide by zero detected: 24.992451 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.34.14:947][346]LogOSC: Display: Stop listening
+[2018.04.24-13.34.15:016][346]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.34.15:025][346]LogSlate: Window 'UnrealSketching Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.24-13.34.15:109][347]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.34.19:544][873]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.34.23:490][346]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2018.04.24-13.34.31:617][291]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2018.04.24-13.34.32:052][341]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.04.24-13.34.36:051][806]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.24-13.34.36:896][900]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2018.04.24-13.34.37:340][948]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.04.24-13.34.39:647][217]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.04.24-13.34.44:222][762]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.24-13.34.45:699][933]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.04.24-13.34.47:353][127]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-13.35.04:838][168]LogOSC: Display: Stop listening
+[2018.04.24-13.35.04:850][168]LogOSC: Display: Listen to port 8000
+[2018.04.24-13.35.04:850][168]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-13.35.04:850][168]LogHMD: Initializing OVRPlugin session
+[2018.04.24-13.35.04:894][168]PIE: New page: PIE session: iPadOSC_Level (24 Apr 2018 17:35:04)
+[2018.04.24-13.35.04:894][168]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_iPadOSC_Level
+[2018.04.24-13.35.04:896][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001462s)
+[2018.04.24-13.35.04:896][168]LogAIModule: Creating AISystem for world iPadOSC_Level
+[2018.04.24-13.35.04:896][168]LogPlayLevel: PIE: World Init took: (0.000723s)
+[2018.04.24-13.35.04:897][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/iPadOSC_Level.iPadOSC_Level to /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level (0.002341s)
+[2018.04.24-13.35.04:924][168]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.24-13.35.04:932][168]LogInit: FAudioDevice initialized.
+[2018.04.24-13.35.04:961][168]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OSCListener///Thread_350c_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OSCListener///Thread_2d14_0///####STATCAT_Advanced####
+[2018.04.24-13.35.05:019][168]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.24-13.35.05:047][168]LogLoad: Game class is 'LM_C'
+[2018.04.24-13.35.05:048][168]LogWorld: Bringing World /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level up for play (max tick rate 0) at 2018.04.24-15.35.05
+[2018.04.24-13.35.05:048][168]LogWorld: Bringing up level for play took: 0.000664
+[2018.04.24-13.35.05:049][168]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2018.04.24-13.35.05:050][168]LogBlueprintUserMessages: [OSC_VP_25] Listening for OSC
+[2018.04.24-13.35.05:051][168]Cmd: stereo reset
+[2018.04.24-13.35.05:051][168]Command not recognized: stereo reset
+[2018.04.24-13.35.05:055][168]PIE: Play in editor start time for /Game/UEDPIE_0_iPadOSC_Level 0.992
+[2018.04.24-13.35.05:055][168]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.35.05:058][168]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.24-13.35.05:058][168]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.24-13.35.06:159][267]LogScriptCore: Warning: Script Msg: Divide by zero detected: 24.992443 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.35.06:159][267]LogScriptCore: Warning: Script Msg: Divide by zero detected: 24.992443 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.35.13:592][929]LogOSC: Display: Stop listening
+[2018.04.24-13.35.13:698][929]LogSlate: Window 'UnrealSketching Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.24-13.35.13:790][930]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.35.21:643][868]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Screen)
+[2018.04.24-13.35.26:204][399]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-13.35.52:997][550]LogOSC: Display: Stop listening
+[2018.04.24-13.35.53:009][550]LogOSC: Display: Listen to port 8000
+[2018.04.24-13.35.53:009][550]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-13.35.53:009][550]LogHMD: Initializing OVRPlugin session
+[2018.04.24-13.35.53:055][550]PIE: New page: PIE session: iPadOSC_Level (24 Apr 2018 17:35:53)
+[2018.04.24-13.35.53:055][550]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_iPadOSC_Level
+[2018.04.24-13.35.53:057][550]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001423s)
+[2018.04.24-13.35.53:057][550]LogAIModule: Creating AISystem for world iPadOSC_Level
+[2018.04.24-13.35.53:058][550]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2018.04.24-13.35.53:058][550]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/iPadOSC_Level.iPadOSC_Level to /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level (0.002152s)
+[2018.04.24-13.35.53:086][550]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.24-13.35.53:092][550]LogInit: FAudioDevice initialized.
+[2018.04.24-13.35.53:127][550]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OSCListener///Thread_1b30_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OSCListener///Thread_2d14_0///####STATCAT_Advanced####
+[2018.04.24-13.35.53:177][550]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.24-13.35.53:204][550]LogLoad: Game class is 'LM_C'
+[2018.04.24-13.35.53:205][550]LogWorld: Bringing World /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level up for play (max tick rate 0) at 2018.04.24-15.35.53
+[2018.04.24-13.35.53:205][550]LogWorld: Bringing up level for play took: 0.000632
+[2018.04.24-13.35.53:206][550]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2018.04.24-13.35.53:208][550]LogBlueprintUserMessages: [OSC_VP_25] Listening for OSC
+[2018.04.24-13.35.53:209][550]Cmd: stereo reset
+[2018.04.24-13.35.53:209][550]Command not recognized: stereo reset
+[2018.04.24-13.35.53:212][550]PIE: Play in editor start time for /Game/UEDPIE_0_iPadOSC_Level 1.149
+[2018.04.24-13.35.53:213][550]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.35.53:215][550]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.24-13.35.53:215][550]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.24-13.35.53:395][566]LogScriptCore: Warning: Script Msg: Divide by zero detected: 24.992453 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.35.53:395][566]LogScriptCore: Warning: Script Msg: Divide by zero detected: 24.992453 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.36.11:015][144]LogOSC: Display: Stop listening
+[2018.04.24-13.36.11:092][144]LogSlate: Window 'UnrealSketching Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.24-13.36.11:184][145]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.36.30:300][413]LogActorFactory: Actor Factory created SM_TableRound
+[2018.04.24-13.36.32:920][725]LogActorFactory: Actor Factory created SM_TableRound
+[2018.04.24-13.36.45:308][164]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (iPad)
+[2018.04.24-13.36.57:823][604]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.24-13.37.00:700][937]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.24-13.37.01:344][ 12]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.24-13.37.02:397][135]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.24-13.37.03:129][220]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-13.37.05:982][554]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.24-13.37.06:440][606]Cmd: TRANSACTION UNDO
+[2018.04.24-13.37.06:440][606]LogEditorTransaction: Undo Clicking on Actors
+[2018.04.24-13.37.06:756][638]Cmd: TRANSACTION UNDO
+[2018.04.24-13.37.06:756][638]LogEditorTransaction: Undo Clicking on Actors
+[2018.04.24-13.37.07:392][708]Cmd: TRANSACTION UNDO
+[2018.04.24-13.37.07:392][708]LogEditorTransaction: Undo Clicking on Actors
+[2018.04.24-13.37.07:808][757]Cmd: TRANSACTION UNDO
+[2018.04.24-13.37.07:808][757]LogEditorTransaction: Undo Clicking on Actors
+[2018.04.24-13.37.08:190][802]Cmd: TRANSACTION UNDO
+[2018.04.24-13.37.08:190][802]LogEditorTransaction: Undo Clicking on Actors
+[2018.04.24-13.37.08:369][818]Cmd: TRANSACTION UNDO
+[2018.04.24-13.37.08:369][818]LogEditorTransaction: Undo Move Actors
+[2018.04.24-13.37.11:226][151]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.24-13.37.20:546][242]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.04.24-13.37.22:837][512]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.24-13.37.25:123][776]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.37.25:954][874]LogOSC: Display: Stop listening
+[2018.04.24-13.37.25:965][874]LogOSC: Display: Listen to port 8000
+[2018.04.24-13.37.25:965][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-13.37.25:965][874]LogHMD: Initializing OVRPlugin session
+[2018.04.24-13.37.26:014][874]PIE: New page: PIE session: iPadOSC_Level (24 Apr 2018 17:37:26)
+[2018.04.24-13.37.26:014][874]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_iPadOSC_Level
+[2018.04.24-13.37.26:016][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001780s)
+[2018.04.24-13.37.26:016][874]LogAIModule: Creating AISystem for world iPadOSC_Level
+[2018.04.24-13.37.26:017][874]LogPlayLevel: PIE: World Init took: (0.000740s)
+[2018.04.24-13.37.26:017][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/iPadOSC_Level.iPadOSC_Level to /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level (0.002686s)
+[2018.04.24-13.37.26:046][874]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.24-13.37.26:054][874]LogInit: FAudioDevice initialized.
+[2018.04.24-13.37.26:059][874]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.37.26:082][874]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OSCListener///Thread_1b34_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OSCListener///Thread_2d14_0///####STATCAT_Advanced####
+[2018.04.24-13.37.26:139][874]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.24-13.37.26:166][874]LogLoad: Game class is 'LM_C'
+[2018.04.24-13.37.26:167][874]LogWorld: Bringing World /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level up for play (max tick rate 0) at 2018.04.24-15.37.26
+[2018.04.24-13.37.26:168][874]LogWorld: Bringing up level for play took: 0.000747
+[2018.04.24-13.37.26:169][874]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2018.04.24-13.37.26:171][874]LogBlueprintUserMessages: [OSC_VP_25] Listening for OSC
+[2018.04.24-13.37.26:171][874]Cmd: stereo reset
+[2018.04.24-13.37.26:171][874]Command not recognized: stereo reset
+[2018.04.24-13.37.26:176][874]PIE: Play in editor start time for /Game/UEDPIE_0_iPadOSC_Level 0.113
+[2018.04.24-13.37.26:177][874]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.37.26:179][874]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.24-13.37.26:179][874]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.24-13.37.33:294][507]LogOSC: Display: Stop listening
+[2018.04.24-13.37.33:400][507]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.37.33:408][507]LogSlate: Window 'UnrealSketching Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.24-13.37.33:497][508]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.37.36:271][839]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.24-13.37.36:907][909]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.04.24-13.37.38:022][ 39]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.24-13.37.41:160][408]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.04.24-13.37.45:418][900]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.04.24-13.37.46:879][ 71]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.24-13.37.48:980][307]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.37.49:839][391]LogOSC: Display: Stop listening
+[2018.04.24-13.37.49:851][391]LogOSC: Display: Listen to port 8000
+[2018.04.24-13.37.49:851][391]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.24-13.37.49:851][391]LogHMD: Initializing OVRPlugin session
+[2018.04.24-13.37.49:904][391]PIE: New page: PIE session: iPadOSC_Level (24 Apr 2018 17:37:49)
+[2018.04.24-13.37.49:904][391]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_iPadOSC_Level
+[2018.04.24-13.37.49:906][391]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001800s)
+[2018.04.24-13.37.49:906][391]LogAIModule: Creating AISystem for world iPadOSC_Level
+[2018.04.24-13.37.49:906][391]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2018.04.24-13.37.49:907][391]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/iPadOSC_Level.iPadOSC_Level to /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level (0.002805s)
+[2018.04.24-13.37.49:935][391]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.24-13.37.49:941][391]LogInit: FAudioDevice initialized.
+[2018.04.24-13.37.49:947][391]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.37.49:972][391]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//OSCListener///Thread_39a0_0///####STATCAT_Advanced#### old //STATGROUP_Threads//OSCListener///Thread_2d14_0///####STATCAT_Advanced####
+[2018.04.24-13.37.50:028][391]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.24-13.37.50:056][391]LogLoad: Game class is 'LM_C'
+[2018.04.24-13.37.50:057][391]LogWorld: Bringing World /Game/UEDPIE_0_iPadOSC_Level.iPadOSC_Level up for play (max tick rate 0) at 2018.04.24-15.37.50
+[2018.04.24-13.37.50:057][391]LogWorld: Bringing up level for play took: 0.000792
+[2018.04.24-13.37.50:059][391]LeapPluginLog: InterfaceObject: LeapAnimBodyConnector_C_0
+[2018.04.24-13.37.50:060][391]LogBlueprintUserMessages: [OSC_VP_25] Listening for OSC
+[2018.04.24-13.37.50:061][391]Cmd: stereo reset
+[2018.04.24-13.37.50:061][391]Command not recognized: stereo reset
+[2018.04.24-13.37.50:065][391]PIE: Play in editor start time for /Game/UEDPIE_0_iPadOSC_Level 0.002
+[2018.04.24-13.37.50:066][391]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.37.50:071][391]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.24-13.37.50:071][391]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.24-13.37.56:181][941]LogScriptCore: Warning: Script Msg: Divide by zero detected: 24.992456 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.37.56:181][941]LogScriptCore: Warning: Script Msg: Divide by zero detected: 24.992456 / 0
+Script call stack:
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:ExecuteUbergraph_LeapEchoHands_AnimBlueprint
+	Function /LeapMotion/Character/Echo/LeapEchoHands_AnimBlueprint.LeapEchoHands_AnimBlueprint_C:Set Scaling If Enabled
+
+[2018.04.24-13.38.11:366][301]LogOSC: Display: Stop listening
+[2018.04.24-13.38.11:432][301]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.38.11:436][301]LogSlate: Window 'UnrealSketching Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.04.24-13.38.11:520][302]LogEngine: Changing dynamic resolution state.
+[2018.04.24-13.38.14:192][609]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-13.38.15:057][711]LogActorFactory: Actor Factory created SM_Chair
+[2018.04.24-13.38.16:992][942]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.38.18:514][104]LogActorFactory: Actor Factory created SM_Couch
+[2018.04.24-13.38.20:763][370]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.38.29:476][357]LogActorFactory: Actor Factory created SM_Lamp_Ceiling
+[2018.04.24-13.38.30:503][478]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.38.32:643][698]LogActorFactory: Actor Factory created SM_Lamp_Ceiling
+[2018.04.24-13.38.33:911][848]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.38.35:944][ 55]LogActorFactory: Actor Factory created SM_WindowFrame
+[2018.04.24-13.38.39:344][460]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.38.45:097][ 97]LogActorFactory: Actor Factory created SM_CornerFrame
+[2018.04.24-13.38.46:811][299]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.38.53:375][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.24-13.38.54:783][211]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.38.54:834][211]LogSavePackage: Save=17.90ms
+[2018.04.24-13.38.54:834][211]LogSavePackage: Moving 'C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Saved/iPadOSC_LevelBE438B104CF03CA26EB8C282B332F3E9.tmp' to 'C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Content/iPadOSC_Level.umap'
+[2018.04.24-13.38.54:841][211]LogSavePackage: Display: Finished SavePackage C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Content/iPadOSC_Level.umap
+[2018.04.24-13.38.54:861][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/iPadOSC_Level_BuiltData" FILE="C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Content/iPadOSC_Level_BuiltData.uasset" SILENT=true
+[2018.04.24-13.38.54:879][211]LogSavePackage: Save=10.10ms
+[2018.04.24-13.38.54:879][211]LogSavePackage: Moving 'C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Saved/iPadOSC_Level_BuiltDataC0C3FE1248E8F840F14E2A98D10BC333.tmp' to 'C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Content/iPadOSC_Level_BuiltData.uasset'
+[2018.04.24-13.38.54:884][211]LogSavePackage: Display: Finished SavePackage C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Content/iPadOSC_Level_BuiltData.uasset
+[2018.04.24-13.38.58:983][688]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.24-13.39.06:223][697]LogSlate: Window 'Save Content' being destroyed
+[2018.04.24-13.39.06:235][697]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.24-13.39.06:276][697]LogSavePackage: Save=12.64ms
+[2018.04.24-13.39.06:276][697]LogSavePackage: Moving 'C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Saved/M_Spark1B121B7D4CE4927F0457A3AA9DEEEB3B.tmp' to 'C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Content/StarterContent/Particles/Materials/M_Spark.uasset'
+[2018.04.24-13.39.06:280][697]LogSavePackage: Display: Finished SavePackage C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Content/StarterContent/Particles/Materials/M_Spark.uasset
+[2018.04.24-13.39.06:342][697]LogSlate: Window 'UnrealSketching - Unreal Editor' being destroyed
+[2018.04.24-13.39.06:530][698]Cmd: QUIT_EDITOR
+[2018.04.24-13.39.07:356][698]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.24-13.39.07:367][698]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.04.24-13.39.07:367][698]LogExit: Preparing to exit.
+[2018.04.24-13.39.08:255][698]LogOSC: Display: Stop listening
+[2018.04.24-13.39.08:303][698]LogExit: Editor shut down
+[2018.04.24-13.39.08:306][698]LogExit: Transaction tracking system shut down
+[2018.04.24-13.39.08:444][698]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.24-13.39.08:444][698]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.04.24-13.39.08:444][698]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.04.24-13.39.08:444][698]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.04.24-13.39.08:444][698]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/LeapMotion/Content/' was aborted.
+[2018.04.24-13.39.08:444][698]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.04.24-13.39.08:444][698]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.04.24-13.39.08:589][698]LogExit: Object subsystem successfully closed.
+[2018.04.24-13.39.08:612][698]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.04.24-13.39.08:614][698]LogD3D11RHI: Shutdown
+[2018.04.24-13.39.08:615][698]LogD3D11RHI: CleanupD3DDevice
+[2018.04.24-13.39.08:619][698]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.24-13.39.08:630][698]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (586)
+[2018.04.24-13.39.08:630][698]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (584)
+[2018.04.24-13.39.08:630][698]LogModuleManager: Shutting down and abandoning module BlueprintGraph (582)
+[2018.04.24-13.39.08:630][698]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (580)
+[2018.04.24-13.39.08:630][698]LogModuleManager: Shutting down and abandoning module DesktopPlatform (578)
+[2018.04.24-13.39.08:630][698]LogModuleManager: Shutting down and abandoning module SceneOutliner (576)
+[2018.04.24-13.39.08:630][698]LogModuleManager: Shutting down and abandoning module AddContentDialog (574)
+[2018.04.24-13.39.08:630][698]LogDirectoryWatcher: A directory notification for 'D:/UnrealEngine/UE_4.19/FeaturePacks/' was aborted.
+[2018.04.24-13.39.08:630][698]LogDirectoryWatcher: A directory notification for 'D:/UnrealEngine/UE_4.19/Enterprise/FeaturePacks/' was aborted.
+[2018.04.24-13.39.08:631][698]LogModuleManager: Shutting down and abandoning module WidgetCarousel (573)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module EditorWidgets (570)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module CollectionManager (568)
+[2018.04.24-13.39.08:632][698]LogDirectoryWatcher: A directory notification for 'C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Content/Collections/' was aborted.
+[2018.04.24-13.39.08:632][698]LogDirectoryWatcher: A directory notification for 'C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Content/Developers/faculty/Collections/' was aborted.
+[2018.04.24-13.39.08:632][698]LogDirectoryWatcher: A directory notification for 'C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Saved/Collections/' was aborted.
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module StatsViewer (566)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module FoliageEdit (564)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module LandscapeEditor (562)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module MeshPaintMode (560)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (558)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module ActorPickerMode (556)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module GeometryMode (554)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module TextureAlignMode (552)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module BspMode (550)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (548)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module HardwareSurvey (546)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (544)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module AutomationWorker (542)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (540)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module SequenceRecorder (539)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (536)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (534)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module PlacementMode (533)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module MaterialEditor (532)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (528)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (526)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (524)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (522)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (520)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (518)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (516)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (514)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (512)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (510)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module CharacterAI (508)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module SmartSnapping (506)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module SessionServices (504)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module ViewportSnapping (502)
+[2018.04.24-13.39.08:632][698]LogModuleManager: Shutting down and abandoning module ViewportInteraction (500)
+[2018.04.24-13.39.08:633][698]LogModuleManager: Shutting down and abandoning module ClothPainter (498)
+[2018.04.24-13.39.08:633][698]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (497)
+[2018.04.24-13.39.08:633][698]LogModuleManager: Shutting down and abandoning module LogVisualizer (494)
+[2018.04.24-13.39.08:633][698]LogModuleManager: Shutting down and abandoning module IntroTutorials (492)
+[2018.04.24-13.39.08:633][698]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (491)
+[2018.04.24-13.39.08:633][698]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (488)
+[2018.04.24-13.39.08:633][698]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (486)
+[2018.04.24-13.39.08:633][698]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (484)
+[2018.04.24-13.39.08:633][698]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (483)
+[2018.04.24-13.39.09:493][698]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (480)
+[2018.04.24-13.39.09:493][698]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (478)
+[2018.04.24-13.39.09:493][698]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (476)
+[2018.04.24-13.39.09:493][698]LogModuleManager: Shutting down and abandoning module InputBindingEditor (474)
+[2018.04.24-13.39.09:493][698]LogModuleManager: Shutting down and abandoning module MergeActors (472)
+[2018.04.24-13.39.09:493][698]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (470)
+[2018.04.24-13.39.09:493][698]LogModuleManager: Shutting down and abandoning module LocalizationService (469)
+[2018.04.24-13.39.09:493][698]LogModuleManager: Shutting down and abandoning module HardwareTargeting (466)
+[2018.04.24-13.39.09:493][698]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (464)
+[2018.04.24-13.39.09:493][698]LogModuleManager: Shutting down and abandoning module UndoHistory (462)
+[2018.04.24-13.39.09:493][698]LogModuleManager: Shutting down and abandoning module XmlParser (460)
+[2018.04.24-13.39.09:493][698]LogModuleManager: Shutting down and abandoning module Blutility (458)
+[2018.04.24-13.39.09:493][698]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (456)
+[2018.04.24-13.39.09:493][698]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (455)
+[2018.04.24-13.39.09:493][698]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (452)
+[2018.04.24-13.39.09:493][698]LogModuleManager: Shutting down and abandoning module SettingsEditor (450)
+[2018.04.24-13.39.09:493][698]LogModuleManager: Shutting down and abandoning module ProjectLauncher (448)
+[2018.04.24-13.39.09:493][698]LogModuleManager: Shutting down and abandoning module SessionFrontend (446)
+[2018.04.24-13.39.09:493][698]LogModuleManager: Shutting down and abandoning module ProfilerClient (444)
+[2018.04.24-13.39.09:493][698]LogModuleManager: Shutting down and abandoning module DeviceManager (442)
+[2018.04.24-13.39.09:493][698]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (441)
+[2018.04.24-13.39.09:556][698]LogModuleManager: Shutting down and abandoning module AutomationController (438)
+[2018.04.24-13.39.09:556][698]LogModuleManager: Shutting down and abandoning module AutomationWindow (436)
+[2018.04.24-13.39.09:556][698]LogModuleManager: Shutting down and abandoning module Layers (434)
+[2018.04.24-13.39.09:556][698]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (432)
+[2018.04.24-13.39.09:556][698]LogModuleManager: Shutting down and abandoning module DetailCustomizations (430)
+[2018.04.24-13.39.09:556][698]LogModuleManager: Shutting down and abandoning module PackagesDialog (428)
+[2018.04.24-13.39.09:556][698]LogModuleManager: Shutting down and abandoning module Persona (426)
+[2018.04.24-13.39.09:556][698]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (425)
+[2018.04.24-13.39.09:556][698]LogModuleManager: Shutting down and abandoning module AnimGraph (423)
+[2018.04.24-13.39.09:556][698]LogModuleManager: Shutting down and abandoning module Kismet (420)
+[2018.04.24-13.39.09:563][698]LogModuleManager: Shutting down and abandoning module GraphEditor (418)
+[2018.04.24-13.39.09:564][698]LogModuleManager: Shutting down and abandoning module ClassViewer (416)
+[2018.04.24-13.39.09:565][698]LogModuleManager: Shutting down and abandoning module Toolbox (414)
+[2018.04.24-13.39.09:565][698]LogModuleManager: Shutting down and abandoning module ModuleUI (412)
+[2018.04.24-13.39.09:565][698]LogModuleManager: Shutting down and abandoning module MovieSceneTools (410)
+[2018.04.24-13.39.09:565][698]LogModuleManager: Shutting down and abandoning module OutputLog (408)
+[2018.04.24-13.39.09:565][698]LogModuleManager: Shutting down and abandoning module GammaUI (406)
+[2018.04.24-13.39.09:565][698]LogModuleManager: Shutting down and abandoning module Documentation (404)
+[2018.04.24-13.39.09:565][698]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (402)
+[2018.04.24-13.39.09:565][698]LogModuleManager: Shutting down and abandoning module MovieScene (400)
+[2018.04.24-13.39.09:565][698]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (398)
+[2018.04.24-13.39.09:565][698]LogModuleManager: Shutting down and abandoning module LauncherPlatform (396)
+[2018.04.24-13.39.09:565][698]LogModuleManager: Shutting down and abandoning module AnalyticsET (394)
+[2018.04.24-13.39.09:565][698]LogModuleManager: Shutting down and abandoning module PortalServices (392)
+[2018.04.24-13.39.09:565][698]LogModuleManager: Shutting down and abandoning module PortalRpc (390)
+[2018.04.24-13.39.09:565][698]LogModuleManager: Shutting down and abandoning module MessagingRpc (388)
+[2018.04.24-13.39.09:565][698]LogModuleManager: Shutting down and abandoning module AIModule (386)
+[2018.04.24-13.39.09:565][698]LogModuleManager: Shutting down and abandoning module GameplayDebugger (385)
+[2018.04.24-13.39.09:565][698]LogModuleManager: Shutting down and abandoning module AITestSuite (383)
+[2018.04.24-13.39.09:565][698]LogModuleManager: Shutting down and abandoning module ProfilerService (380)
+[2018.04.24-13.39.09:615][698]LogModuleManager: Shutting down and abandoning module TaskGraph (378)
+[2018.04.24-13.39.09:615][698]LogModuleManager: Shutting down and abandoning module SteamVRController (376)
+[2018.04.24-13.39.09:615][698]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (374)
+[2018.04.24-13.39.09:615][698]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (372)
+[2018.04.24-13.39.09:615][698]LogModuleManager: Shutting down and abandoning module OculusInput (370)
+[2018.04.24-13.39.09:615][698]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (368)
+[2018.04.24-13.39.09:615][698]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (366)
+[2018.04.24-13.39.09:615][698]LogModuleManager: Shutting down and abandoning module CableComponent (364)
+[2018.04.24-13.39.09:615][698]LogModuleManager: Shutting down and abandoning module AudioCapture (362)
+[2018.04.24-13.39.09:615][698]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (360)
+[2018.04.24-13.39.09:615][698]LogModuleManager: Shutting down and abandoning module AndroidPermission (358)
+[2018.04.24-13.39.09:615][698]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (354)
+[2018.04.24-13.39.09:615][698]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (352)
+[2018.04.24-13.39.09:615][698]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (350)
+[2018.04.24-13.39.09:615][698]LogModuleManager: Shutting down and abandoning module MediaCompositing (348)
+[2018.04.24-13.39.09:615][698]LogModuleManager: Shutting down and abandoning module LinearTimecode (346)
+[2018.04.24-13.39.09:615][698]LogModuleManager: Shutting down and abandoning module ImgMedia (344)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module HTML5Networking (342)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module AlembicImporter (340)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module AlembicLibrary (339)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module GeometryCache (338)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (337)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module DatasmithContent (332)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (330)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module PluginBrowser (328)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (326)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (324)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module CryptoKeys (322)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (320)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (318)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module UObjectPlugin (316)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (314)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (312)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module GitSourceControl (310)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module SourceControl (309)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (306)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module MeshPaint (297)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module UnrealSketching (294)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module OSC (292)
+[2018.04.24-13.39.09:620][698]LogOSC: Display: Shutdown
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (290)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (288)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module PhysXVehicles (286)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module OculusEditor (284)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (282)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (280)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (278)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module ActorSequence (276)
+[2018.04.24-13.39.09:620][698]LogModuleManager: Shutting down and abandoning module UdpMessaging (274)
+[2018.04.24-13.39.09:721][698]LogModuleManager: Shutting down and abandoning module TcpMessaging (272)
+[2018.04.24-13.39.09:821][698]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (270)
+[2018.04.24-13.39.09:821][698]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (268)
+[2018.04.24-13.39.09:821][698]LogModuleManager: Shutting down and abandoning module FacialAnimation (266)
+[2018.04.24-13.39.09:821][698]LogModuleManager: Shutting down and abandoning module DataValidation (264)
+[2018.04.24-13.39.09:821][698]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (262)
+[2018.04.24-13.39.09:821][698]LogModuleManager: Shutting down and abandoning module LevelEditor (261)
+[2018.04.24-13.39.09:822][698]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (260)
+[2018.04.24-13.39.09:822][698]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (258)
+[2018.04.24-13.39.09:822][698]LogModuleManager: Shutting down and abandoning module MainFrame (256)
+[2018.04.24-13.39.09:822][698]LogModuleManager: Shutting down and abandoning module HotReload (255)
+[2018.04.24-13.39.09:822][698]LogDirectoryWatcher: A directory notification for 'C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Binaries/Win64' was aborted.
+[2018.04.24-13.39.09:822][698]LogDirectoryWatcher: A directory notification for 'C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Plugins/OSC/Binaries/Win64' was aborted.
+[2018.04.24-13.39.09:822][698]LogModuleManager: Shutting down and abandoning module ContentBrowser (251)
+[2018.04.24-13.39.09:823][698]LogModuleManager: Shutting down and abandoning module TreeMap (249)
+[2018.04.24-13.39.09:823][698]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (246)
+[2018.04.24-13.39.09:823][698]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (244)
+[2018.04.24-13.39.09:823][698]LogModuleManager: Shutting down and abandoning module LiveLink (242)
+[2018.04.24-13.39.10:015][698]LogModuleManager: Shutting down and abandoning module Paper2D (240)
+[2018.04.24-13.39.10:015][698]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (238)
+[2018.04.24-13.39.10:015][698]LogModuleManager: Shutting down and abandoning module WmfMedia (236)
+[2018.04.24-13.39.10:016][698]LogModuleManager: Shutting down and abandoning module Media (235)
+[2018.04.24-13.39.10:022][698]LogModuleManager: Shutting down and abandoning module PacketHandler (232)
+[2018.04.24-13.39.10:022][698]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (230)
+[2018.04.24-13.39.10:022][698]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (228)
+[2018.04.24-13.39.10:022][698]LogModuleManager: Shutting down and abandoning module MediaAssets (226)
+[2018.04.24-13.39.10:022][698]LogModuleManager: Shutting down and abandoning module Overlay (224)
+[2018.04.24-13.39.10:022][698]LogModuleManager: Shutting down and abandoning module OverlayEditor (223)
+[2018.04.24-13.39.10:022][698]LogModuleManager: Shutting down and abandoning module VREditor (220)
+[2018.04.24-13.39.10:022][698]LogModuleManager: Shutting down and abandoning module StringTableEditor (218)
+[2018.04.24-13.39.10:022][698]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (216)
+[2018.04.24-13.39.10:022][698]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (214)
+[2018.04.24-13.39.10:022][698]LogModuleManager: Shutting down and abandoning module FunctionalTesting (212)
+[2018.04.24-13.39.10:022][698]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (210)
+[2018.04.24-13.39.10:022][698]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (209)
+[2018.04.24-13.39.10:022][698]LogModuleManager: Shutting down and abandoning module UMG (206)
+[2018.04.24-13.39.10:022][698]LogModuleManager: Shutting down and abandoning module UMGEditor (205)
+[2018.04.24-13.39.10:022][698]LogModuleManager: Shutting down and abandoning module Sequencer (204)
+[2018.04.24-13.39.10:022][698]LogModuleManager: Shutting down and abandoning module MessageLog (201)
+[2018.04.24-13.39.10:022][698]LogModuleManager: Shutting down and abandoning module SlateReflector (196)
+[2018.04.24-13.39.10:022][698]LogModuleManager: Shutting down and abandoning module Slate (194)
+[2018.04.24-13.39.10:022][698]LogModuleManager: Shutting down and abandoning module EditorStyle (192)
+[2018.04.24-13.39.10:023][698]LogModuleManager: Shutting down and abandoning module MRMesh (190)
+[2018.04.24-13.39.10:023][698]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (188)
+[2018.04.24-13.39.10:023][698]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (186)
+[2018.04.24-13.39.10:023][698]LogModuleManager: Shutting down and abandoning module XAudio2 (184)
+[2018.04.24-13.39.10:023][698]LogModuleManager: Shutting down and abandoning module Networking (182)
+[2018.04.24-13.39.10:023][698]LogModuleManager: Shutting down and abandoning module Core (180)
+[2018.04.24-13.39.10:023][698]LogModuleManager: Shutting down and abandoning module LevelSequence (178)
+[2018.04.24-13.39.10:023][698]LogModuleManager: Shutting down and abandoning module KismetCompiler (176)
+[2018.04.24-13.39.10:023][698]LogModuleManager: Shutting down and abandoning module MeshUtilities (174)
+[2018.04.24-13.39.10:023][698]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (173)
+[2018.04.24-13.39.10:023][698]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (172)
+[2018.04.24-13.39.10:023][698]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (171)
+[2018.04.24-13.39.10:024][698]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (169)
+[2018.04.24-13.39.10:024][698]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (167)
+[2018.04.24-13.39.10:024][698]LogModuleManager: Shutting down and abandoning module MaterialBaking (163)
+[2018.04.24-13.39.10:024][698]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (159)
+[2018.04.24-13.39.10:024][698]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.24-13.39.10:024][698]LogDirectoryWatcher: A directory notification for 'C:/Users/faculty/Documents/vr-3d-sketching/vr-3d-sketching/UnrealSketching 4.19/Content/' was aborted.
+[2018.04.24-13.39.10:024][698]LogModuleManager: Shutting down and abandoning module DerivedDataCache (156)
+[2018.04.24-13.39.10:106][698]LogDerivedDataCache: Shutdown
+[2018.04.24-13.39.10:106][698]LogModuleManager: Shutting down and abandoning module XGEController (154)
+[2018.04.24-13.39.10:106][698]LogModuleManager: Shutting down and abandoning module TargetPlatform (152)
+[2018.04.24-13.39.10:106][698]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (151)
+[2018.04.24-13.39.10:106][698]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (149)
+[2018.04.24-13.39.10:106][698]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (147)
+[2018.04.24-13.39.10:106][698]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (145)
+[2018.04.24-13.39.10:106][698]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (143)
+[2018.04.24-13.39.10:106][698]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (141)
+[2018.04.24-13.39.10:106][698]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (139)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (137)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (135)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (133)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module ImageWrapper (132)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (129)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (127)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (125)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (123)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (121)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (119)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (117)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (115)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (113)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module Messaging (111)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (109)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (107)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (105)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (103)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (101)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (99)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (97)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (95)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (93)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (91)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (89)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (87)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (85)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (83)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (81)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (79)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (77)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (75)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (73)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (71)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module InputCore (68)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module Settings (66)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module PhysXCooking (64)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module SteamVR (62)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module OculusHMD (60)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module LeapMotion (58)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.24-13.39.10:107][698]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.24-13.39.10:107][698]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.24-13.39.10:107][698]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2F57D99F-49CD-16F3-E257-D08E475F50AD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.1-3989454%2B%2B%2BUE4%2BRelease-4.19&UserID=0cf65d2f4e89df1471c3b4a240d1c4d9%7Ca3fa066e1b584c339af93ae5afae9645%7C5e22f8db-0951-4870-b28e-cf4b1f297db6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.24-13.39.10:134][698]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.24-13.39.10:135][698]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.04.24-13.39.10:135][698]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.04.24-13.39.10:135][698]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.04.24-13.39.10:135][698]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.04.24-13.39.10:135][698]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.04.24-13.39.10:135][698]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.04.24-13.39.10:135][698]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.04.24-13.39.10:136][698]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.04.24-13.39.10:136][698]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.04.24-13.39.10:136][698]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.04.24-13.39.10:136][698]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.04.24-13.39.10:136][698]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.04.24-13.39.10:136][698]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.04.24-13.39.10:136][698]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.04.24-13.39.10:136][698]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.04.24-13.39.10:136][698]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.24-13.39.10:136][698]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.24-13.39.10:136][698]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.24-13.39.10:148][698]LogExit: Exiting.
+[2018.04.24-13.39.10:159][698]Log file closed, 04/24/18 15:39:10
