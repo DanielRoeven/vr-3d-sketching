@@ -13,13 +13,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define OSC_OscDataElemStruct_generated_h
 
-#define UnrealSketching_Plugins_OSC_Source_OSC_Public_Common_OscDataElemStruct_h_9_GENERATED_BODY \
+#define UnrealSketching_4_19_Plugins_OSC_Source_OSC_Public_Common_OscDataElemStruct_h_9_GENERATED_BODY \
 	friend OSC_API class UScriptStruct* Z_Construct_UScriptStruct_FOscDataElemStruct(); \
 	static class UScriptStruct* StaticStruct();
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID UnrealSketching_Plugins_OSC_Source_OSC_Public_Common_OscDataElemStruct_h
+#define CURRENT_FILE_ID UnrealSketching_4_19_Plugins_OSC_Source_OSC_Public_Common_OscDataElemStruct_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

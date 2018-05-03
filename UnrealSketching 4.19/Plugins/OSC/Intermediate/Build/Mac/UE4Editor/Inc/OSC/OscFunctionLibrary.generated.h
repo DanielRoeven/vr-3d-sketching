@@ -15,7 +15,7 @@ struct FOscDataElemStruct;
 #endif
 #define OSC_OscFunctionLibrary_generated_h
 
-#define UnrealSketching_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_RPC_WRAPPERS \
+#define UnrealSketching_4_19_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execAddSendOscTarget) \
 	{ \
@@ -248,7 +248,7 @@ struct FOscDataElemStruct;
 	}
 
 
-#define UnrealSketching_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+#define UnrealSketching_4_19_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execAddSendOscTarget) \
 	{ \
@@ -481,7 +481,7 @@ struct FOscDataElemStruct;
 	}
 
 
-#define UnrealSketching_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_INCLASS_NO_PURE_DECLS \
+#define UnrealSketching_4_19_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUOscFunctionLibrary(); \
 	friend OSC_API class UClass* Z_Construct_UClass_UOscFunctionLibrary(); \
@@ -491,7 +491,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define UnrealSketching_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_INCLASS \
+#define UnrealSketching_4_19_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_INCLASS \
 private: \
 	static void StaticRegisterNativesUOscFunctionLibrary(); \
 	friend OSC_API class UClass* Z_Construct_UClass_UOscFunctionLibrary(); \
@@ -501,7 +501,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define UnrealSketching_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_STANDARD_CONSTRUCTORS \
+#define UnrealSketching_4_19_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOscFunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOscFunctionLibrary) \
@@ -514,7 +514,7 @@ private: \
 public:
 
 
-#define UnrealSketching_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_ENHANCED_CONSTRUCTORS \
+#define UnrealSketching_4_19_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UOscFunctionLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -527,32 +527,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UOscFunctionLibrary); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UOscFunctionLibrary)
 
 
-#define UnrealSketching_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_PRIVATE_PROPERTY_OFFSET
-#define UnrealSketching_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_8_PROLOG
-#define UnrealSketching_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_GENERATED_BODY_LEGACY \
+#define UnrealSketching_4_19_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_PRIVATE_PROPERTY_OFFSET
+#define UnrealSketching_4_19_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_8_PROLOG
+#define UnrealSketching_4_19_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealSketching_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_PRIVATE_PROPERTY_OFFSET \
-	UnrealSketching_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_RPC_WRAPPERS \
-	UnrealSketching_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_INCLASS \
-	UnrealSketching_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_STANDARD_CONSTRUCTORS \
+	UnrealSketching_4_19_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_PRIVATE_PROPERTY_OFFSET \
+	UnrealSketching_4_19_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_RPC_WRAPPERS \
+	UnrealSketching_4_19_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_INCLASS \
+	UnrealSketching_4_19_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define UnrealSketching_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_GENERATED_BODY \
+#define UnrealSketching_4_19_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UnrealSketching_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_PRIVATE_PROPERTY_OFFSET \
-	UnrealSketching_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
-	UnrealSketching_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_INCLASS_NO_PURE_DECLS \
-	UnrealSketching_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_ENHANCED_CONSTRUCTORS \
+	UnrealSketching_4_19_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_PRIVATE_PROPERTY_OFFSET \
+	UnrealSketching_4_19_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+	UnrealSketching_4_19_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_INCLASS_NO_PURE_DECLS \
+	UnrealSketching_4_19_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h_11_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID UnrealSketching_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h
+#define CURRENT_FILE_ID UnrealSketching_4_19_Plugins_OSC_Source_OSC_Public_Common_OscFunctionLibrary_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
