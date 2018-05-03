@@ -11,7 +11,7 @@ import SwiftOSC
 
 class ViewController: UIViewController {
 
-    var ipaddress = "192.168.0.1"
+    var ipaddress = "192.168.0.101"
     var port = 8000
     var client = OSCClient(address: "192.168.0.1", port: 8000)
     let address = OSCAddressPattern("/iPadSketching/")
@@ -49,13 +49,15 @@ class ViewController: UIViewController {
         print("Rotation: " + String(Float(rotation)))
     }
     
+    var prevScale:Float = 1.0
     @IBAction func handlePinch(sender: UIPinchGestureRecognizer) {
-        let scale = sender.scale
+        let scaleDiff:Float = Float(sender.scale) - prevScale
+        prevScale = Float(sender.scale)
         let x = sender.location(in: self.view).x
         let y = sender.location(in: self.view).y
-        let message = OSCMessage(address, String("Pinch"), Float(scale), Int(x), Int(y))
+        let message = OSCMessage(address, String("Pinch"), scaleDiff, Int(x), Int(y))
         client.send(message)
-        print("Pinch: " + String(Float(scale)))
+        print("Pinch: " + String(scaleDiff))
     }
     
     // Create a popup with textfield to set client IP address
