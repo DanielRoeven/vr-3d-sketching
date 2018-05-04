@@ -32,6 +32,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
     }
     
     var gestures = Set<UIGestureRecognizer>(minimumCapacity: 3)
+    var state:Int = 0
     var x:CGFloat = -1
     var y:CGFloat = -1
     var rotation:CGFloat = 0
@@ -51,6 +52,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         switch gesture.state {
             case .began:
                 if gestures.count == 0 {
+                    state = 0
                     x = -1
                     y = -1
                     rotation = 0
@@ -59,9 +61,17 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
                     scaleThresholdPassed = false
                 }
                 gestures.insert(gesture)
+                if let panRecognizer = gesture as? UIPanGestureRecognizer {
+                    x = panRecognizer.location(in: self.view).x
+                    y = panRecognizer.location(in: self.view).y
+                }
+
+            
             
             case .changed:
                 gestures.forEach({ (gesture) in
+                    state = 1
+                    
                     if let rotateRecognizer = gesture as? UIRotationGestureRecognizer {
                         let myRotation = rotateRecognizer.rotation
                         if (myRotation < -0.01 || myRotation > 0.01 || rotationThresholdPassed) {
@@ -120,46 +130,23 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
                         return
                     }
                 })
-                print("Transform: (x: " + String(Int(x)) + ", y: " + String(Int(y)) + ", rotation: " + String(Float(rotationDiff)) + ", scale: " + String(Float(scaleDiff)) + ")")
-                let message = OSCMessage(address, Int(x), Int(y), Float(rotationDiff), Float(scaleDiff))
-                client.send(message)
 
             case .ended:
+                state = 2
                 gestures.remove(gesture)
             
             default:
                 break
         }
+        let stateString = " state: " + String(state)
+        let xString = " x: " + String(Int(x))
+        let yString = " y: " + String(Int(y))
+        let rotationString = " rotation: " + String(Float(rotationDiff))
+        let scaleString = " scale: " + String(Float(scaleDiff))
+        print(stateString + xString + yString + rotationString + scaleString)
+        let message = OSCMessage(address, state, Int(x), Int(y), Float(rotationDiff), Float(scaleDiff))
+        client.send(message)
     }
-
-//    // Handle pan gesture and send OSC message.
-//    @IBAction func handlePan(sender: UIPanGestureRecognizer) {
-//        let x = sender.location(in: self.view).x
-//        let y = sender.location(in: self.view).y
-//        let message = OSCMessage(address, String("Pan"), Int(x), Int(y))
-//        client.send(message)
-//        print("Pan: (" + String(Int(x)) + ", " + String(Int(y)) + ")")
-//    }
-//
-//    @IBAction func handleRotate(sender: UIRotationGestureRecognizer) {
-//        let rotation = sender.rotation
-//        let x = sender.location(in: self.view).x
-//        let y = sender.location(in: self.view).y
-//        let message = OSCMessage(address, String("Rotate"), Float(rotation), Int(x), Int(y))
-//        client.send(message)
-//        print("Rotation: " + String(Float(rotation)))
-//    }
-//
-//    var prevScale:Float = 1.0
-//    @IBAction func handlePinch(sender: UIPinchGestureRecognizer) {
-//        let scaleDiff:Float = Float(sender.scale) - prevScale
-//        prevScale = Float(sender.scale)
-//        let x = sender.location(in: self.view).x
-//        let y = sender.location(in: self.view).y
-//        let message = OSCMessage(address, String("Pinch"), scaleDiff, Int(x), Int(y))
-//        client.send(message)
-//        print("Pinch: " + String(scaleDiff))
-//    }
     
     // Create a popup with textfield to set client IP address
     @IBAction func changeClientIP(sender: UIButton) {
