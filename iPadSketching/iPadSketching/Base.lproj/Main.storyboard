@@ -31,28 +31,31 @@
                         <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <connections>
-                            <outletCollection property="gestureRecognizers" destination="G1f-Wi-AVd" appends="YES" id="jBh-sO-qah"/>
-                            <outletCollection property="gestureRecognizers" destination="I0Y-Rw-Hiw" appends="YES" id="k1b-xv-GCF"/>
-                            <outletCollection property="gestureRecognizers" destination="nnK-w9-N6v" appends="YES" id="1N8-Hj-15A"/>
+                            <outletCollection property="gestureRecognizers" destination="SJY-Zd-Gkr" appends="YES" id="L0c-mP-ugc"/>
+                            <outletCollection property="gestureRecognizers" destination="q8A-M7-jvw" appends="YES" id="ms3-2p-Ywo"/>
+                            <outletCollection property="gestureRecognizers" destination="5Ha-7o-SoU" appends="YES" id="eov-2h-QaE"/>
                         </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="G1f-Wi-AVd">
+                <rotationGestureRecognizer id="SJY-Zd-Gkr">
                     <connections>
-                        <action selector="handlePanWithSender:" destination="BYZ-38-t0r" id="cm2-td-WSb"/>
-                    </connections>
-                </panGestureRecognizer>
-                <rotationGestureRecognizer id="I0Y-Rw-Hiw">
-                    <connections>
-                        <action selector="handleRotateWithSender:" destination="BYZ-38-t0r" id="KLf-dJ-qxW"/>
+                        <action selector="processTransform:" destination="BYZ-38-t0r" id="cKX-yu-u1G"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="kig-9w-qnx"/>
                     </connections>
                 </rotationGestureRecognizer>
-                <pinchGestureRecognizer id="nnK-w9-N6v">
+                <pinchGestureRecognizer id="q8A-M7-jvw">
                     <connections>
-                        <action selector="handlePinchWithSender:" destination="BYZ-38-t0r" id="QWQ-ny-YuQ"/>
+                        <action selector="processTransform:" destination="BYZ-38-t0r" id="2Ny-OT-IAl"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="Lc1-Nd-pjK"/>
                     </connections>
                 </pinchGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="5Ha-7o-SoU">
+                    <connections>
+                        <action selector="processTransform:" destination="BYZ-38-t0r" id="bY3-YG-qGd"/>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="QLJ-Oi-i7P"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
         </scene>
     </scenes>
