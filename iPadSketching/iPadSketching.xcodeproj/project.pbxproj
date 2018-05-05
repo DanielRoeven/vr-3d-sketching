@@ -13,7 +13,7 @@
 		611B0B7F208BBAF3006277D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 611B0B7E208BBAF3006277D0 /* Assets.xcassets */; };
 		611B0B82208BBAF3006277D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611B0B80208BBAF3006277D0 /* LaunchScreen.storyboard */; };
 		611B0B8A208BBB14006277D0 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 611B0B89208BBB14006277D0 /* Podfile */; };
-		6151FFA9209C6769007AB443 /* CustomGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6151FFA8209C6769007AB443 /* CustomGestureRecognizer.swift */; };
+		6151FFA9209C6769007AB443 /* ThreeFingerPan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6151FFA8209C6769007AB443 /* ThreeFingerPan.swift */; };
 		6D4CDF6BCB13771AE444DEB2 /* Pods_iPadSketching.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59CCE37415ECF207BDAFC38 /* Pods_iPadSketching.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +26,7 @@
 		611B0B81208BBAF3006277D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		611B0B83208BBAF3006277D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		611B0B89208BBB14006277D0 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		6151FFA8209C6769007AB443 /* CustomGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGestureRecognizer.swift; sourceTree = "<group>"; };
+		6151FFA8209C6769007AB443 /* ThreeFingerPan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeFingerPan.swift; sourceTree = "<group>"; };
 		A4C76BAFDC59A2EE26D9525E /* Pods-iPadSketching.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPadSketching.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iPadSketching/Pods-iPadSketching.debug.xcconfig"; sourceTree = "<group>"; };
 		D2FE0AFF37CA64E473AF3500 /* Pods-iPadSketching.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPadSketching.release.xcconfig"; path = "Pods/Target Support Files/Pods-iPadSketching/Pods-iPadSketching.release.xcconfig"; sourceTree = "<group>"; };
 		D59CCE37415ECF207BDAFC38 /* Pods_iPadSketching.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iPadSketching.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,7 +85,7 @@
 			children = (
 				611B0B77208BBAF2006277D0 /* AppDelegate.swift */,
 				611B0B79208BBAF2006277D0 /* ViewController.swift */,
-				6151FFA8209C6769007AB443 /* CustomGestureRecognizer.swift */,
+				6151FFA8209C6769007AB443 /* ThreeFingerPan.swift */,
 				611B0B7B208BBAF2006277D0 /* Main.storyboard */,
 				611B0B7E208BBAF3006277D0 /* Assets.xcassets */,
 				611B0B80208BBAF3006277D0 /* LaunchScreen.storyboard */,
@@ -209,7 +209,7 @@
 			files = (
 				611B0B7A208BBAF2006277D0 /* ViewController.swift in Sources */,
 				611B0B78208BBAF2006277D0 /* AppDelegate.swift in Sources */,
-				6151FFA9209C6769007AB443 /* CustomGestureRecognizer.swift in Sources */,
+				6151FFA9209C6769007AB443 /* ThreeFingerPan.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
