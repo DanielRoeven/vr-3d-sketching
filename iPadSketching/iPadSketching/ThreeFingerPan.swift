@@ -11,7 +11,8 @@ import UIKit.UIGestureRecognizerSubclass
 
 public class ThreeFingerPan: UIGestureRecognizer {
     
-    open var roll:CGFloat = 0.0
+    open var offsetX:CGFloat = 0.0
+    open var offsetY:CGFloat = 0.0
     var startX:CGFloat = -1
     var startY:CGFloat = -1
     var beganTracking = false
@@ -53,7 +54,8 @@ public class ThreeFingerPan: UIGestureRecognizer {
             // Set start x, y, and roll
             startX = averageX
             startY = averageY
-            roll = 0.0
+            offsetX = 0.0
+            offsetY = 0.0
         }
     }
     
@@ -65,23 +67,16 @@ public class ThreeFingerPan: UIGestureRecognizer {
             // Calculate average position
             var averageX:CGFloat = 0
             var averageY:CGFloat = 0
-            for touch in touches {
+            for touch in touchesBeingTracked {
                 averageX += touch.location(in: self.view).x
                 averageY += touch.location(in: self.view).y
             }
-            averageX /= CGFloat(touches.count)
-            averageY /= CGFloat(touches.count)
+            averageX /= CGFloat(touchesBeingTracked.count)
+            averageY /= CGFloat(touchesBeingTracked.count)
 
             // Calculate distance moved since last change
-            let diffX = averageX - startX
-            let diffY = averageY - startY
-            var hypothenuse = sqrt(pow(diffX, 2) + pow(diffY, 2))
-            if (diffX < 0) {
-                hypothenuse *= -1
-            }
-
-            // Set roll to hypothenuse
-            roll = hypothenuse
+            offsetX = averageX - startX
+            offsetY = averageY - startY
             
             state = .changed
         }

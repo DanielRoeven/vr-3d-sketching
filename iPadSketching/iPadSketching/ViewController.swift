@@ -44,6 +44,8 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
     var scaleThresholdPassed = false
     var roll:CGFloat = 0
     var rollDiff:CGFloat = 0
+    var pitch:CGFloat = 0
+    var pitchDiff:CGFloat = 0
     var trackingThreeFingerPan = false
     
     // Reset gesture transform state
@@ -177,9 +179,14 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
             if (!trackingThreeFingerPan && threeFingerPanRecognizer.state == .changed) {
                 trackingThreeFingerPan = true
             }
-            let myRoll = threeFingerPanRecognizer.roll
+            
+            let myRoll = threeFingerPanRecognizer.offsetX
             rollDiff = myRoll - roll
             roll = myRoll
+            
+            let myPitch = threeFingerPanRecognizer.offsetY
+            pitchDiff = myPitch - pitch
+            pitch = myPitch
             
             rotation = 0
             rotationDiff = 0
@@ -232,6 +239,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
                 
                 // Save state as ended
                 state = 2
+                trackingThreeFingerPan = false
                 
                 // Clean up gesture from active gesture list
                 gestures.remove(gesture)
@@ -241,7 +249,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         }
         
         // Create and send OSC message with gesture state
-        let message = OSCMessage(address, state, Int(x), Int(y), Float(rotationDiff), Float(scaleDiff), Float(rollDiff))
+        let message = OSCMessage(address, state, Int(x), Int(y), Float(rollDiff), Float(pitchDiff), Float(rotationDiff), Float(scaleDiff))
         client.send(message)
     }
     
@@ -252,7 +260,8 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         let rotationString = " rotation: " + String(Float(rotationDiff))
         let scaleString = " scale: " + String(Float(scaleDiff))
         let rollString = " roll: " + String(Float(rollDiff))
-        print(stateString + xString + yString + rotationString + scaleString + rollString + " from " + sender)
+        let pitchString = " pitch: " + String(Float(pitchDiff))
+        print(stateString + xString + yString + rotationString + scaleString + rollString + pitchString + " from " + sender)
     }
     
     // Create a popup with textfield to set client IP address
