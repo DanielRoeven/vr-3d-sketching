@@ -36,6 +36,8 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
     var state:Int = 0
     var x:CGFloat = -1
     var y:CGFloat = -1
+    var z:CGFloat = 0
+    var zDiff:CGFloat = 0
     var rotation:CGFloat = 0
     var rotationDiff:CGFloat = 0
     var rotationThresholdPassed = false
@@ -53,6 +55,8 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         state = 0
         x = -1
         y = -1
+        z = 0
+        zDiff = 0
         rotation = 0
         rotationDiff = 0
         rotationThresholdPassed = false
@@ -193,6 +197,13 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
             scale = 1
             scaleDiff = 0
             
+            let myZ = threeFingerPanRecognizer.lastFingerOffset
+            let myZDiff = myZ - z
+            if (z != 0 && myZDiff < 5 && myZDiff > -5) {
+                zDiff = myZDiff
+            }
+            z = myZ
+            
             printGestureTranform(sender: "three finger pan")
         }
     }
@@ -249,7 +260,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         }
         
         // Create and send OSC message with gesture state
-        let message = OSCMessage(address, state, Int(x), Int(y), Float(rollDiff), Float(pitchDiff), Float(rotationDiff), Float(scaleDiff))
+        let message = OSCMessage(address, state, Int(x), Int(y), Float(zDiff), Float(rollDiff), Float(pitchDiff), Float(rotationDiff), Float(scaleDiff))
         client.send(message)
     }
     
@@ -257,11 +268,12 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         let stateString = " state: " + String(state)
         let xString = " x: " + String(Int(x))
         let yString = " y: " + String(Int(y))
+        let zDiffString = " z: " + String(Float(zDiff))
         let rotationString = " rotation: " + String(Float(rotationDiff))
         let scaleString = " scale: " + String(Float(scaleDiff))
         let rollString = " roll: " + String(Float(rollDiff))
         let pitchString = " pitch: " + String(Float(pitchDiff))
-        print(stateString + xString + yString + rotationString + scaleString + rollString + pitchString + " from " + sender)
+        print(stateString + xString + yString + zDiffString + rotationString + scaleString + rollString + pitchString + " from " + sender)
     }
     
     // Create a popup with textfield to set client IP address
