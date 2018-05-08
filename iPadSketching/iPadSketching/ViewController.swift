@@ -9,7 +9,7 @@
 import UIKit
 import SwiftOSC
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIGestureRecognizerDelegate {
 
     var ipaddress = "192.168.0.101"
     var port = 8000
@@ -30,34 +30,250 @@ class ViewController: UIViewController {
     override var prefersStatusBarHidden: Bool {
         return true
     }
+    
+    // Variables describing gesture state
+    var gestures = Set<UIGestureRecognizer>(minimumCapacity: 3)
+    var state:Int = 0
+    var x:CGFloat = -1
+    var y:CGFloat = -1
+    var z:CGFloat = 0
+    var zDiff:CGFloat = 0
+    var rotation:CGFloat = 0
+    var rotationDiff:CGFloat = 0
+    var rotationThresholdPassed = false
+    var scale:CGFloat = 1
+    var scaleDiff:CGFloat = 0
+    var scaleThresholdPassed = false
+    var roll:CGFloat = 0
+    var rollDiff:CGFloat = 0
+    var pitch:CGFloat = 0
+    var pitchDiff:CGFloat = 0
+    var trackingThreeFingerPan = false
+    
+    // Reset gesture transform state
+    func resetGestureTransformState() {
+        state = 0
+        x = -1
+        y = -1
+        z = 0
+        zDiff = 0
+        rotation = 0
+        rotationDiff = 0
+        rotationThresholdPassed = false
+        scale = 1
+        scaleDiff = 0
+        scaleThresholdPassed = false
+        roll = 0
+        rollDiff = 0
+        trackingThreeFingerPan = false
+    }
+    
+    // Allow multiple gestures to be recognized simultaneously
+    func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+        return true
+    }
+    
+    // Don't recognize gestures if pressing buttons
+    func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldReceive touch: UITouch) -> Bool {
+        if(touch.view!.isKind(of: UIControl.self)) {
+            return false
+        } else {
+            return true
+        }
+    }
+    
+    // Process gesture as rotation if possible
+    func processAsRotation(gestureRecognizer: UIGestureRecognizer) {
+        
+        // If gesture can be recognized as rotation
+        if let rotateRecognizer = gestureRecognizer as? UIRotationGestureRecognizer {
+            
+            // Save new rotation locally
+            let myRotation = rotateRecognizer.rotation
+            
+            // If new rotation crosses threshold, or if threshold is already passed
+            if (myRotation < -0.01 || myRotation > 0.01 || rotationThresholdPassed) {
+                
+                // Update gesture transform state
+                rotationDiff = myRotation - rotation
+                rotation = myRotation
+                rotationThresholdPassed = true
+                
+                // Save new x and y locally
+                let myX = rotateRecognizer.location(in: self.view).x
+                let myY = rotateRecognizer.location(in: self.view).y
+                
+                // Update gesture transform state if less than 25px distance (prevent jumpiness)
+                let hypothenuse = sqrt(pow((x - myX), 2) + pow((y - myY),2))
+                if hypothenuse < 25 {
+                    x = myX
+                    y = myY
+                }
+            }
+            
+            printGestureTranform(sender: "rotate")
+        }
+    }
+    
+    // Process gesture as pinch if possible
+    func processAsPinch(gestureRecognizer: UIGestureRecognizer) {
+        
+        // If gesture can be recognized as pinch
+        if let pinchRecognizer = gestureRecognizer as? UIPinchGestureRecognizer {
+            
+            // Save new scale locally
+            let myScale = pinchRecognizer.scale
+            
+            // If new rotation crosses theshold, or if threshold is already passed
+            if (myScale <= 0.9 || myScale >= 1.1 || scaleThresholdPassed) {
+                
+                // Update gesture transform state
+                scaleDiff = myScale - scale
+                scale = myScale
+                scaleThresholdPassed = true
+                
+                // Save new x and y locally
+                let myX = pinchRecognizer.location(in: self.view).x
+                let myY = pinchRecognizer.location(in: self.view).y
+                
+                // Update gesture transform state if less than 25px distance (prevent jumpiness)
+                let hypothenuse = sqrt(pow((x - myX), 2) + pow((y - myY),2))
+                if hypothenuse < 25 {
+                    x = myX
+                    y = myY
+                }
+            }
+            printGestureTranform(sender: "pinch")
+        }
+    }
+    
+    // Process gesture as pan if possible
+    func processAsPan(gestureRecognizer: UIGestureRecognizer) {
+        
+        // If gesture can be recognized as pan
+        if let panRecognizer = gestureRecognizer as? UIPanGestureRecognizer {
+            
+            // Save new x and y locally
+            let myX = panRecognizer.location(in: self.view).x
+            let myY = panRecognizer.location(in: self.view).y
+            
+            // Set x and y if not yet set
+            if (x == -1) {
+                x = myX
+            }
+            
+            if (y == -1) {
+                y = myY
+            }
+            
+            // Update gesture transform state if less than 25px distance (prevent jumpiness)
+            if (x != -1 && y != -1) {
+                let hypothenuse = sqrt(pow((x - myX), 2) + pow((y - myY),2))
+                if hypothenuse < 25 {
+                    x = myX
+                    y = myY
+                }
+            }
+            printGestureTranform(sender: "pan")
+        }
+    }
+    
+    func processAsThreeFingerPan(gestureRecognizer: UIGestureRecognizer) {
+        if let threeFingerPanRecognizer = gestureRecognizer as? ThreeFingerPan {
+            if (!trackingThreeFingerPan && threeFingerPanRecognizer.state == .changed) {
+                trackingThreeFingerPan = true
+            }
+            
+            let myRoll = threeFingerPanRecognizer.offsetX
+            rollDiff = myRoll - roll
+            roll = myRoll
+            
+            let myPitch = threeFingerPanRecognizer.offsetY
+            pitchDiff = myPitch - pitch
+            pitch = myPitch
+            
+            rotation = 0
+            rotationDiff = 0
+            scale = 1
+            scaleDiff = 0
+            
+            let myZ = threeFingerPanRecognizer.lastFingerOffset
+            let myZDiff = myZ - z
+            if (z != 0 && myZDiff < 5 && myZDiff > -5) {
+                zDiff = myZDiff
+            }
+            z = myZ
+            
+            printGestureTranform(sender: "three finger pan")
+        }
+    }
+    
+    @IBAction func processTransform(_ sender: Any) {
+        let gesture = sender as! UIGestureRecognizer
+        
+        switch gesture.state {
+            
+            case .began:
+                
+                // Reset gesture transform state if previous gestures cleaned up
+                if gestures.count == 0 {
+                    resetGestureTransformState()
+                }
+                
+                // Don't set x and y on three finger pan begin
+                if (gesture.numberOfTouches < 3) {
+                    x = gesture.location(in: self.view).x
+                    y = gesture.location(in: self.view).y
+                }
+                
+                // Set current gesture as active
+                gestures.insert(gesture)
+            
+            case .changed:
+                
+                // Save state as changed
+                state = 1
+                
+                // For current gesture(s), process as rotation, pinch, and pan if possible
+                gestures.forEach({ (gesture) in
 
-    // Handle pan gesture and send OSC message.
-    @IBAction func handlePan(sender: UIPanGestureRecognizer) {
-        let x = sender.location(in: self.view).x
-        let y = sender.location(in: self.view).y
-        let message = OSCMessage(address, String("Pan"), Int(x), Int(y))
+                    processAsThreeFingerPan(gestureRecognizer: gesture)
+                    // Three finger pan should block other gestures3
+                    if (!trackingThreeFingerPan) {
+                        processAsRotation(gestureRecognizer: gesture)
+                        processAsPinch(gestureRecognizer: gesture)
+                        processAsPan(gestureRecognizer: gesture)
+                    }
+                })
+
+            case .ended:
+                
+                // Save state as ended
+                state = 2
+                trackingThreeFingerPan = false
+                
+                // Clean up gesture from active gesture list
+                gestures.remove(gesture)
+            
+            default:
+                break
+        }
+        
+        // Create and send OSC message with gesture state
+        let message = OSCMessage(address, state, Int(x), Int(y), Float(zDiff), Float(rollDiff), Float(pitchDiff), Float(rotationDiff), Float(scaleDiff))
         client.send(message)
-        print("Pan: (" + String(Int(x)) + ", " + String(Int(y)) + ")")
     }
     
-    @IBAction func handleRotate(sender: UIRotationGestureRecognizer) {
-        let rotation = sender.rotation
-        let x = sender.location(in: self.view).x
-        let y = sender.location(in: self.view).y
-        let message = OSCMessage(address, String("Rotate"), Float(rotation), Int(x), Int(y))
-        client.send(message)
-        print("Rotation: " + String(Float(rotation)))
-    }
-    
-    var prevScale:Float = 1.0
-    @IBAction func handlePinch(sender: UIPinchGestureRecognizer) {
-        let scaleDiff:Float = Float(sender.scale) - prevScale
-        prevScale = Float(sender.scale)
-        let x = sender.location(in: self.view).x
-        let y = sender.location(in: self.view).y
-        let message = OSCMessage(address, String("Pinch"), scaleDiff, Int(x), Int(y))
-        client.send(message)
-        print("Pinch: " + String(scaleDiff))
+    func printGestureTranform(sender: String){
+        let stateString = " state: " + String(state)
+        let xString = " x: " + String(Int(x))
+        let yString = " y: " + String(Int(y))
+        let zDiffString = " z: " + String(Float(zDiff))
+        let rotationString = " rotation: " + String(Float(rotationDiff))
+        let scaleString = " scale: " + String(Float(scaleDiff))
+        let rollString = " roll: " + String(Float(rollDiff))
+        let pitchString = " pitch: " + String(Float(pitchDiff))
+        print(stateString + xString + yString + zDiffString + rotationString + scaleString + rollString + pitchString + " from " + sender)
     }
     
     // Create a popup with textfield to set client IP address

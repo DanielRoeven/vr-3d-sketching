@@ -1,7 +1,7 @@
-/Users/danielroeven/Documents/Unreal Projects/vr-3d-sketching/UnrealSketching/Plugins/OSC/Source/OSC/Public/Common/OscDataElemStruct.h
-/Users/danielroeven/Documents/Unreal Projects/vr-3d-sketching/UnrealSketching/Plugins/OSC/Source/OSC/Public/Common/OscFunctionLibrary.h
-/Users/danielroeven/Documents/Unreal Projects/vr-3d-sketching/UnrealSketching/Plugins/OSC/Source/OSC/Public/Common/OscMessageStruct.h
-/Users/danielroeven/Documents/Unreal Projects/vr-3d-sketching/UnrealSketching/Plugins/OSC/Source/OSC/Public/Receive/OscReceiverActor.h
-/Users/danielroeven/Documents/Unreal Projects/vr-3d-sketching/UnrealSketching/Plugins/OSC/Source/OSC/Public/Receive/OscReceiverComponent.h
-/Users/danielroeven/Documents/Unreal Projects/vr-3d-sketching/UnrealSketching/Plugins/OSC/Source/OSC/Private/Receive/OscDispatcher.h
-/Users/danielroeven/Documents/Unreal Projects/vr-3d-sketching/UnrealSketching/Plugins/OSC/Source/OSC/Private/OscSettings.h
+/Users/danielroeven/Documents/Unreal Projects/vr-3d-sketching/UnrealSketching 4.19/Plugins/OSC/Source/OSC/Public/Common/OscDataElemStruct.h
+/Users/danielroeven/Documents/Unreal Projects/vr-3d-sketching/UnrealSketching 4.19/Plugins/OSC/Source/OSC/Public/Common/OscFunctionLibrary.h
+/Users/danielroeven/Documents/Unreal Projects/vr-3d-sketching/UnrealSketching 4.19/Plugins/OSC/Source/OSC/Public/Common/OscMessageStruct.h
+/Users/danielroeven/Documents/Unreal Projects/vr-3d-sketching/UnrealSketching 4.19/Plugins/OSC/Source/OSC/Public/Receive/OscReceiverActor.h
+/Users/danielroeven/Documents/Unreal Projects/vr-3d-sketching/UnrealSketching 4.19/Plugins/OSC/Source/OSC/Public/Receive/OscReceiverComponent.h
+/Users/danielroeven/Documents/Unreal Projects/vr-3d-sketching/UnrealSketching 4.19/Plugins/OSC/Source/OSC/Private/Receive/OscDispatcher.h
+/Users/danielroeven/Documents/Unreal Projects/vr-3d-sketching/UnrealSketching 4.19/Plugins/OSC/Source/OSC/Private/OscSettings.h
