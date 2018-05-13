@@ -21,6 +21,8 @@ public class ThreeFingerPan: UIGestureRecognizer {
     var firstTouch:UITouch?
     var secondTouch:UITouch?
     var thirdTouch:UITouch?
+    var zTranslateMode = false
+    var rollMode = true
     
     override public func reset() {
         super.reset()
@@ -43,6 +45,8 @@ public class ThreeFingerPan: UIGestureRecognizer {
                 secondTouch = touch
             }
             else if (touchesBeingTracked.count == 2) {
+                zTranslateMode = false
+                rollMode = false
                 touchesBeingTracked.insert(touch)
                 thirdTouch = touch
             }
@@ -54,19 +58,33 @@ public class ThreeFingerPan: UIGestureRecognizer {
         if (touchesBeingTracked.count == 3) {
             state = .began
             
-            // Calculate average position over taps
-            var averageX:CGFloat = 0
-            var averageY:CGFloat = 0
-            for touch in touches {
-                averageX += touch.location(in: self.view).x
-                averageY += touch.location(in: self.view).y
+            // Calculate average position
+            var totalAverageX:CGFloat = 0
+            var totalAverageY:CGFloat = 0
+            for touch in touchesBeingTracked {
+                totalAverageX += touch.location(in: self.view).x
+                totalAverageY += touch.location(in: self.view).y
             }
-            averageX /= CGFloat(touches.count)
-            averageY /= CGFloat(touches.count)
+            totalAverageX /= CGFloat(touchesBeingTracked.count)
+            totalAverageY /= CGFloat(touchesBeingTracked.count)
+            
+            let firstTwoAverageX:CGFloat = (firstTouch!.location(in: self.view).x + secondTouch!.location(in: self.view).x)/2
+            let firstTwoAverageY:CGFloat = (firstTouch!.location(in: self.view).y + secondTouch!.location(in: self.view).y)/2
+            
+            let distLastTouchToFirstTwo = hypothenuse(x1: thirdTouch!.location(in: self.view).x,
+                                                      x2: firstTwoAverageX,
+                                                      y1: thirdTouch!.location(in: self.view).y,
+                                                      y2: firstTwoAverageY)
+
+            if (distLastTouchToFirstTwo > 280) {
+                zTranslateMode = true
+            } else if (distLastTouchToFirstTwo < 180) {
+                rollMode = true
+            }
             
             // Set start x, y, and roll
-            startX = averageX
-            startY = averageY
+            startX = totalAverageX
+            startY = totalAverageX
             offsetX = 0.0
             offsetY = 0.0
         }
@@ -95,11 +113,11 @@ public class ThreeFingerPan: UIGestureRecognizer {
                                                       y1: thirdTouch!.location(in: self.view).y,
                                                       y2: firstTwoAverageY)
             
-            if (distLastTouchToFirstTwo > 280) {
+            if (zTranslateMode) {
                 lastFingerOffset = distLastTouchToFirstTwo
                 state = .changed
             }
-            else if (distLastTouchToFirstTwo < 180) {
+            else if (rollMode) {
                 // Calculate distance moved since last change
                 offsetX = totalAverageX - startX
                 offsetY = totalAverageY - startY

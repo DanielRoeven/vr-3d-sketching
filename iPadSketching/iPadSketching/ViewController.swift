@@ -198,7 +198,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
             scaleDiff = 0
             
             let myZ = threeFingerPanRecognizer.lastFingerOffset
-            let myZDiff = myZ - z
+            let myZDiff = z - myZ
             if (z != 0 && myZDiff < 5 && myZDiff > -5) {
                 zDiff = myZDiff
             }
